@@ -1,0 +1,320 @@
+.cont_head {
+  background: url('http://m.qpic.cn/psb?/V103fdTR0PY8oM/BBnROeeEwld8JCz9*UTgqEBADWsbx513ob1vFWdROwc!/b/dL8AAAAAAAAA&bo=7gKiAO4CogADGTw!&rf=viewer_4') no-repeat;
+  background-size: 100% 100%;
+  height: 162rpx;
+  width: 98%;
+  margin: 0;
+  padding: 10px 10rpx 0 10rpx;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.location {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.location image {
+  width: 34rpx;
+  height: 44rpx;
+  margin-right: 10rpx;
+}
+
+.search_input {
+  width: 64%;
+  border-radius: 28rpx;
+  height: 56rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.search_input input {
+  color: #999;
+  font-size: 25rpx;
+  width: 100%;
+  margin-left: 20rpx;
+}
+
+.scan image {
+  width: 41rpx;
+  height: 41rpx;
+}
+
+/* 所有内边距 */
+
+.padding_item {
+  padding: 0 20rpx;
+}
+
+.swiper {
+  margin-top: -58rpx;
+}
+
+.swiper_height {
+  height: 386rpx;
+}
+
+.swiper_width {
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+
+.but_six {
+  margin-top: 62rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.but_1 {
+  width: 32%;
+  height: 133rpx;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+
+.but_11 {
+  background: linear-gradient(10deg, rgba(197, 115, 255, 1), rgba(1, 162, 255, 1));
+}
+
+.but_22 {
+  background: linear-gradient(10deg, rgba(0, 238, 134, 1), rgba(4, 173, 255, 1));
+}
+
+.but_33 {
+  background: linear-gradient(10deg, rgba(255, 162, 0, 1), rgba(255, 55, 248, 0.53));
+}
+
+.but_44 {
+  background: linear-gradient(10deg, rgba(254, 132, 235, 1), rgba(255, 75, 75, 0.53));
+}
+
+.but_55 {
+  background: linear-gradient(10deg, rgba(255, 152, 120, 1), rgba(255, 70, 43, 1));
+}
+
+.but_66 {
+  background: linear-gradient(10deg, rgba(209, 128, 255, 1), rgba(114, 0, 255, 0.54));
+}
+
+.but_1_text {
+  color: #fff;
+  font-size: 35rpx;
+  font-weight: bold;
+  margin-bottom: 5rpx;
+}
+
+.but_1_text1 {
+  font-size: 24rpx;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+.but_left {
+  margin-left: 10rpx;
+}
+
+.recommend {
+  margin-top: 60rpx;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 39rpx;
+}
+
+.scrollstyle {
+  display: flex;
+  white-space: nowrap;
+}
+
+.scrollstyle_text {
+  width: 100px;
+  display: inline-block;
+}
+
+.scrollstyle_text text {
+  color: rgba(82, 82, 82, 1);
+}
+
+.scrollstyle_text image {
+  width: 17rpx;
+  height: 10rpx;
+  margin-bottom: 4rpx;
+  margin-left: 10rpx;
+}
+
+.scrollbut {
+  width: 140rpx;
+  height: 46rpx;
+  background: rgba(245, 245, 245, 1);
+  border-radius: 10rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(131, 131, 131, 1);
+  text-align: center;
+  line-height: 46rpx;
+  display: inline-block;
+  margin-left: 30rpx;
+  margin-top: 29rpx;
+}
+
+.game {
+  width: 691rpx;
+  height: 275rpx;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 5rpx 12rpx 1rpx rgba(166, 166, 166, 1);
+  border-radius: 26rpx;
+  margin: 0 auto;
+  margin-top: 53rpx;
+  padding: 20rpx 10rpx;
+  display: flex;
+}
+
+.game_Img {
+  width: 200rpx;
+  height: 275rpx;
+  margin-right: 10rpx;
+}
+
+.game_Img image {
+  width: 100%;
+  height: 100%;
+}
+
+.game_title_img image {
+  width: 28rpx;
+  height: 27rpx;
+}
+
+.game1 {
+  width: 520rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.game_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.game_title>text {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(244, 142, 10, 1);
+}
+
+.game1_title_img {
+  display: flex;
+  align-items: center;
+}
+
+.game_title_img>text {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(155, 155, 155, 1);
+  display: inline-block;
+  margin-left: 10rpx;
+}
+
+.details {
+  display: flex;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+}
+
+.details>view:nth-child(1) {
+  margin-right: 80rpx;
+}
+
+.time image {
+  width: 26rpx;
+  height: 26rpx;
+  margin-right: 10rpx;
+}
+
+.time {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grade image {
+  width: 30rpx;
+  height: 25rpx;
+  margin-right: 10rpx;
+}
+
+.grade {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+}
+.location11{
+  display: flex;
+  justify-content: space-between;
+}
+.location11_but {
+  width: 140rpx;
+  height: 36rpx;
+  background: rgba(225, 147, 46, 1);
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 22rpx;
+}
+
+.location11_but image {
+  width: 30rpx;
+  height: 20rpx;
+}
+
+.location22{
+  font-size:22rpx;
+font-family:PingFang SC;
+font-weight:500;
+color:rgba(130,130,130,1);
+display: flex;
+align-items: center;
+}
+
+.location22 image{
+  width: 23rpx;
+  height: 28rpx;
+  margin-right: 10rpx;
+}
+
+.location22>text{
+  display: inline-block;
+  width: 250rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,148 @@
+<view class="container">
+  <!-- head -->
+  <view class="cont_head">
+    <!-- search -->
+    <view class="search">
+      <view class="location">
+        <image src="../static/image/location.png"></image>
+        <text>长沙</text>
+      </view>
+      <view class="search_input">
+        <!-- <image src=""></image> -->
+        <input placeholder="这里输入你想要搜索的内容"></input>
+      </view>
+      <view class="scan">
+        <image src="../static/image/scan.png"></image>
+      </view>
+    </view>
+  </view>
+  <!-- swiper -->
+  <view class="swiper padding_item">
+    <swiper autoplay="{{autoplay}}" interval="{{interval}}" class="swiper_height">
+      <swiper-item wx:for="{{bannerPicArray}}" wx:key="index">
+        <image src="{{item.imgUrl}}" class="swiper_width"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- but -->
+  <view class="but_six padding_item">
+    <view class="but_1 but_11">
+      <text class="but_1_text but_left">狼人杀</text>
+      <text class="but_1_text1 but_left">谁才是终极狼王</text>
+    </view>
+
+    <view class="but_1 but_22">
+      <text class="but_1_text but_left">剧本杀</text>
+      <text class="but_1_text1 but_left">史上最烧脑推理游戏</text>
+    </view>
+
+    <view class="but_1 but_33">
+      <text class="but_1_text but_left">密室逃脱</text>
+      <text class="but_1_text1 but_left">自定义房间</text>
+    </view>
+
+    <view class="but_1 but_44">
+      <text class="but_1_text but_left">棋牌桌游</text>
+      <text class="but_1_text1 but_left">自定义房间</text>
+    </view>
+
+    <view class="but_1 but_55">
+      <text class="but_1_text but_left">健身</text>
+      <text class="but_1_text1 but_left">自定义房间</text>
+    </view>
+
+    <view class="but_1 but_66">
+      <text class="but_1_text but_left">其他</text>
+      <text class="but_1_text1 but_left">自定义房间</text>
+    </view>
+
+
+  </view>
+  <!-- recommend -->
+  <view class="recommend padding_item">今日新局推荐</view>
+  <!-- scroll -->
+  <view class="padding_item">
+    <scroll-view scroll-x="true" class="scrollstyle">
+      <!--  display: inline-block-->
+      <view style=" " class="scrollstyle_text">
+        <text>地区</text>
+        <image src="../static/image/fanghui.png"></image>
+      </view>
+      <view style=" " class="scrollstyle_text">
+        <text>匹配类型</text>
+        <image src="../static/image/fanghui.png"></image>
+      </view>
+      <view style=" " class="scrollstyle_text">
+        <text>俱乐部</text>
+        <image src="../static/image/fanghui.png"></image>
+      </view>
+      <view style=" " class="scrollstyle_text">
+        <text>开始时间</text>
+        <image src="../static/image/fanghui.png"></image>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="">
+    <scroll-view scroll-x="true" class="scrollstyle">
+      <!--  display: inline-block-->
+      <view class="scrollbut" wx:for="{{6}}" wx:key="index">
+        速推局
+      </view>
+    </scroll-view>
+  </view>
+
+  <!-- game -->
+  <view class="game " wx:for="{{3}}" wx:key="index">
+    <!-- 标题图 -->
+    <view class="game_Img">
+      <image src="../static/image/larensha.png"></image>
+    </view>
+    <view class="game1">
+      <!-- title -->
+      <view class="game_title">
+        <text>欢迎加入游戏</text>
+        <view class="game_title_img">
+          <image src="../static/image/zhuazi.png"></image>
+          <text>浣熊靓仔俱乐部</text>
+        </view>
+      </view>
+
+      <!-- details -->
+      <view class="details">
+          <view>9人种狼局</view>
+          <view>550662房</view>
+      </view>
+
+      <!-- time -->
+      <view class="time">
+        <view class="time1">
+          <image src="../static/image/time.png"></image>
+          <text>08/06 14:30</text>
+        </view>
+        <view class="time_text">
+          <text>5</text>
+          <text>/</text>
+          <text>9人</text>
+        </view>
+      </view>
+      
+      <!-- grade -->
+      <view class="grade">
+        <image src="../static/image/dengju.png"></image>
+        <text>狼王场</text>
+      </view>
+
+      <!-- location -->
+      <view class="location11">
+          <view class="location11_but">
+              <image src="../static/image/jingzhi.png"></image>
+              <text>禁止吸烟</text>
+          </view>
+          <view class="location22">
+            <image src="../static/image/location22.png"></image>
+            <text>长沙市天心区创谷产业园aaa</text>
+          </view>
+      </view>
+    </view>
+  </view>
+</view>
