@@ -1,16 +1,29 @@
 // pages/About_agency/About_agency.js
+var that
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    color:"rgba(225, 147, 46, 1)",
+    autoplay: true,
+    interval: 2000,
+    dots:true,
+    indicator:"RGBA(255, 255, 255, 1)",
+    curr:0
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
+
+  handoujump(e){
+    that = this
+    that.setData({
+      curr: e.currentTarget.dataset.curr
+    })
+  },
   onLoad: function (options) {
 
   },
