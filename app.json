@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/homePage/homePage"
+    "pages/homePage/homePage",
+    "pages/About_agency/About_agency"
   ],
   "window": {
     "backgroundTextStyle": "light",

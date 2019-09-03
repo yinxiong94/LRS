@@ -1,37 +1,18 @@
-// pages/homePage/homePage.js
-var that
+// pages/About_agency/About_agency.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    //首页轮播图片
-    bannerPicArray:
-    [
-        { imgUrl: "http://images.baixingliangfan.cn/advertesPicture/20180407/20180407175040_1780.jpg"},
-        { imgUrl: "http://images.baixingliangfan.cn/advertesPicture/20180407/20180407175111_9509.jpg"},
-        { imgUrl: "http://images.baixingliangfan.cn/advertesPicture/20180407/20180407175142_6947.jpg"}
-    ],
-    autoplay:true,
-    interval:2000,
-    scrollX:true,
-    cuur:0
+
   },
 
-
-
-  locationdj(e){
-    that = this
-    that.setData({
-      cuur: e.currentTarget.dataset.cuur
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-   
+
   },
 
   /**

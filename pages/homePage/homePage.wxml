@@ -59,7 +59,11 @@
 
   </view>
   <!-- recommend -->
-  <view class="recommend padding_item">今日新局推荐</view>
+  <view class="recommend padding_item">
+      <view class="recommend_left {{cuur==0?'recommend_weight':''}}" data-cuur="0" bindtap="locationdj">热门推荐局</view>
+      <view class="{{cuur==1?'recommend_weight':''}}" data-cuur="1" bindtap="locationdj">俱乐部对局</view>
+  </view>
+
   <!-- scroll -->
   <view class="padding_item">
     <scroll-view scroll-x="true" class="scrollstyle">
