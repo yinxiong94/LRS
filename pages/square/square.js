@@ -1,13 +1,29 @@
 // pages/square/square.js
+var that
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    cruu:0,
+    select:0
   },
 
+
+  locationdj(e) {
+    that = this
+    that.setData({
+      cruu: e.currentTarget.dataset.cruu
+    })
+  },
+
+  select(e){
+    that = this
+    that.setData({
+      select: e.currentTarget.dataset.select
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

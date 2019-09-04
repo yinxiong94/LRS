@@ -1,2 +1,13 @@
-<!--pages/square/square.wxml-->
-<text>pages/square/square.wxml</text>
+<view class="container">
+    <!-- select_title  -->
+    <view class="select_title">
+        <view class="{{cruu==0?'select_title_click':''}}" data-cruu="0" bindtap="locationdj">推荐</view>
+        <view class="{{cruu==1?'select_title_click':''}}" data-cruu="1" bindtap="locationdj">关注</view>
+        <view class="{{cruu==2?'select_title_click':''}}" data-cruu="2" bindtap="locationdj">俱乐部</view>
+    </view>
+    <!-- but -->
+    <view class="select_but">
+        <view class="{{select==0?'select_but1':''}}" data-select="0" bindtap="select">狼人杀</view>
+        <view class="{{select==1?'select_but1':''}}" data-select="1" bindtap="select">剧本杀</view>
+    </view>
+</view>
