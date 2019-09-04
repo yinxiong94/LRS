@@ -40,5 +40,41 @@
         <view class="Review_img">
             <image src="../static/image/pinglunt.png" wx:for="{{3}}" wx:key="index"></image>
         </view>
+        <view class="Review_list">
+           <view class="Review_data">
+               <image src="../static/image/xingixng.png"></image>
+               <text>1.1k</text>
+           </view>
+
+           <view class="Review_data1">
+               <image src="../static/image/pinglun.png"></image>
+               <text>320</text>
+           </view>
+
+           <view class="Review_data2">
+               <image src="../static/image/zhuangfa.png"></image>
+               <text>98</text>
+           </view>
+        </view>
+        <view class="comment_content">
+            <view class="comment_content_list">
+                <text>大黑：</text>
+                <text>在哪儿我们去约</text>
+            </view>
+            <view class="comment_content_list">
+                <text>虎牙：</text>
+                <text>在哪儿我们去约</text>
+            </view>
+            <view class="comment_content_list">
+                <text>大黑</text>
+                <text style="color:rgba(153, 153, 153, 1);"> 回复 </text>
+                <text>虎牙：</text>
+                <text>在哪儿我们去约</text>
+            </view>
+            <view class="comment_content_list1">
+                查看全部评论 >
+            </view>
+        </view>
+        <!-- <view class="division"></view> -->
     </view>
 </view>
