@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/About_agency/About_agency",
-    "pages/homePage/homePage"
+    "pages/homePage/homePage",
+    "pages/square/square"
   ],
   "window": {
     "backgroundTextStyle": "light",
