@@ -34,5 +34,11 @@
                   <text>加好友</text>
             </view>
         </view>
+        <view class="Review_words">
+            岳麓山。可以坐车来到湖南大学，附近有很多小吃噢，然后去爬爬5A级别的岳麓山景区。在刚上山的时候，你会经过一个岳麓书院，这个需要门票，半价是20元，去感受一下什么叫书香门第。
+        </view>
+        <view class="Review_img">
+            <image src="../static/image/pinglunt.png" wx:for="{{3}}" wx:key="index"></image>
+        </view>
     </view>
 </view>
