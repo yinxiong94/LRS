@@ -1,4 +1,7 @@
 <view class="container">
+    <view class="fabu">
+        <image src="../static/image/fabu.png"></image>
+    </view> 
     <!-- select_title  -->
     <view class="select_title">
         <view class="{{cruu==0?'select_title_click':''}}" data-cruu="0" bindtap="locationdj">推荐</view>

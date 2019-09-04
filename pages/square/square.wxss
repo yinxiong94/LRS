@@ -240,26 +240,38 @@
   display: flex;
 }
 
-.Review_img1 image{
+.Review_img1 image {
   width: 200rpx;
   height: 100%;
   margin-right: 30rpx;
 }
 
-.Review_img1_text{
+.Review_img1_text {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
-.Review_img1_text view:nth-child(1){
-  font-size:30rpx;
-font-family:PingFang SC;
-font-weight:bold;
-color:rgba(51,51,51,1);
+.Review_img1_text view:nth-child(1) {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
 }
 
-.Review_img1_text view:nth-child(2){
-  font-size:26rpx;
-color:rgba(51,51,51,1);
+.Review_img1_text view:nth-child(2) {
+  font-size: 26rpx;
+  color: rgba(51, 51, 51, 1);
+}
+
+.fabu{
+  position: fixed;
+  bottom: 80rpx;
+  left: 40%;
+}
+
+.fabu image{
+    width: 126rpx;
+    height: 126rpx;
+
 }
