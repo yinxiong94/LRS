@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/square/square",
+    "pages/details/details",
     "pages/About_agency/About_agency",
+    "pages/square/square",
     "pages/homePage/homePage"
   ],
   "window": {

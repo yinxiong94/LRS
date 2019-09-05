@@ -144,7 +144,7 @@
 
   <!-- game1 -->
   <view class="game1_list" wx:for="{{3}}" wx:key="index" wx:if="{{curr==0}}">
-    
+    <view class="rightwing" style="background: {{RgbColor}};"></view>
     <!--  title -->
     <view class="game_title game_title1">
       <text>欢迎加入游戏</text>

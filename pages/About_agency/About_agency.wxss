@@ -103,6 +103,7 @@
   /* border: 1px solid red; */
   margin-top: 40rpx;
   padding: 20rpx;
+  position: relative;
 }
 .game2{
    width: 691rpx;
@@ -300,4 +301,14 @@ align-items: center;
 
 .toux_img1{
   margin-top: 10rpx;
+}
+
+.rightwing{
+  width:8rpx;
+  height:62rpx;
+  border-top-left-radius:6rpx;
+  
+  position: absolute;
+  left: 0;
+  top: 0;
 }
