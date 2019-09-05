@@ -1,6 +1,36 @@
 <view class="container">
+    <!-- input -->
     <view class="search">
         <view class="icon_glass"></view>
         <input placeholder="搜索用戶或俱樂部"></input>
+    </view>
+    <!-- friend_title -->
+    <view class="friend_title">好友推荐</view>
+    <!-- recommend_list -->
+    <view class="recommend_list">
+        <scroll-view scroll-x="true" class="scrollstyle">
+      <!--  display: inline-block-->
+          <view class="scrollstyle_text" wx:for="{{6}}" wx:key="index">
+              <view class="scrollstyle_head">
+                <image src="../static/image/touxiang.png"></image>
+                <text>小碗熊</text>
+              </view> 
+          </view>
+        </scroll-view>
+    </view>
+    <!-- recommend_all -->
+    <view class="recommend_all">全部好友</view>
+
+    <view class="recommend_all_list" wx:for="{{6}}">
+      <view class="recommend_all_img">
+        <image src="../static/image/touxiang.png"></image>
+        <view class="all_text">
+            <text class="name">湖南浣熊</text>
+            <text class="integral">信誉积分 1056</text>
+        </view>
+      </view>
+      <view class="attention">
+          互相关注
+      </view>
     </view>
 </view>
