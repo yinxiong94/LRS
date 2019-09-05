@@ -44,6 +44,34 @@
     </view>
 
     <!-- commebt_list -->
-      <view class="commentlist">
-            <view class="commentlist_title">全部评论</view>
+    <view class="commentlist">
+        <view class="commentlist_title">全部评论</view>
+        <view wx:for="{{3}}" wx:key="index">
+          <view class="comment_title comment_title1">
+              <view class="comment_title_img">
+                  <image src="../static/image/touxiang.png"></image>
+                  <view class="comment_title_text">
+                      <view class="comment_title_text1">
+                          <text class="name">柯达西</text>
+                      </view>
+                      <view class="comment_title_dengji">
+                          <view class="time">10分钟前</view>
+                      </view>
+                  </view>
+              </view>
+
+              <view class="comment_title_dianz">
+                    <image src="../static/image/xingixng.png"></image>
+                    <text>1.1k</text>
+              </view>
+          </view>
+          <view class="comment_cont"> 
+              精彩的狼人杀推理秀，等你来！
+          </view>
+        </view>
+    </view>
+
+    <!-- comment_box -->
+    <view class="comment_box">
+        
     </view>

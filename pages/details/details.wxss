@@ -1,13 +1,10 @@
-page{
+page {
   background-color: rgba(245, 245, 245, 1);
 }
-
-
 
 .comment {
   background-color: #fff;
   padding: 30rpx;
-
 }
 
 .comment_title {
@@ -170,17 +167,56 @@ page{
   margin: 10rpx 0;
 }
 
-.commentlist{
+.commentlist {
   margin-top: 20rpx;
   background-color: #fff;
-  padding-top:30rpx;
-  padding-left: 30rpx; 
+  padding-top: 30rpx;
+  padding-left: 30rpx;
 }
 
-.commentlist_title{
-font-size:28rpx;
-font-family:PingFang SC;
-font-weight:500;
-color:rgba(51,51,51,1);
-line-height:30rpx;
+.commentlist_title {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  line-height: 30rpx;
+}
+
+.comment_title1 {
+  margin-top: 20rpx;
+}
+
+.comment_title_dianz {
+  display: flex;
+  align-items: center;
+  padding-right: 30rpx;
+}
+
+.comment_title_dianz image {
+  width: 40rpx;
+  height: 36rpx;
+  margin-right: 10rpx;
+}
+
+.comment_cont {
+  height: 70rpx;
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
+  margin-left: 105rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  line-height: 30rpx;
+  display: flex;
+  align-items: center;
+}
+
+.comment_box {
+  position: fixed;
+  bottom: 0;
+  height: 95rpx;
+  width: 100%;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 10px 29px 0px rgba(100, 100, 100, 1);
+  padding: 15rpx;
 }
