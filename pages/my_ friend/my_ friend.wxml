@@ -1,2 +1,6 @@
-<!--pages/my_ friend/my_ friend.wxml-->
-<text>pages/my_ friend/my_ friend.wxml</text>
+<view class="container">
+    <view class="search">
+        <view class="icon_glass"></view>
+        <input placeholder="搜索用戶或俱樂部"></input>
+    </view>
+</view>
