@@ -1,1 +1,186 @@
-/* pages/details/details.wxss */
+page{
+  background-color: rgba(245, 245, 245, 1);
+}
+
+
+
+.comment {
+  background-color: #fff;
+  padding: 30rpx;
+
+}
+
+.comment_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comment_title_img {
+  display: flex;
+}
+
+.comment_title_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.comment_title_text1 {
+  display: flex;
+  align-items: center;
+  height: 40%;
+  width: 300rpx;
+  justify-content: space-between;
+}
+
+.comment_title_dengji {
+  display: flex;
+  height: 40%;
+  align-items: center;
+  width: 230rpx;
+  justify-content: space-between;
+}
+
+.comment_title_img>image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.comment_title_text1 image {
+  width: 22rpx;
+  height: 22rpx;
+}
+
+.name {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+}
+
+.dengji {
+  width: 60rpx;
+  height: 28rpx;
+  background: rgba(254, 213, 23, 1);
+  border-radius: 6rpx;
+  color: rgba(51, 51, 51, 1);
+  font-size: 22rpx;
+  text-align: center;
+  line-height: 28rpx;
+}
+
+.time {
+  font-size: 22rpx;
+  color: rgba(153, 153, 153, 1);
+}
+
+.label {
+  width: 100rpx;
+  height: 28rpx;
+  background: rgba(254, 213, 23, 1);
+  border-radius: 6rpx;
+  color: rgba(51, 51, 51, 1);
+  font-size: 20rpx;
+  text-align: center;
+  line-height: 28rpx;
+}
+
+.shopname {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+}
+
+.comment_title_but {
+  width: 135rpx;
+  height: 60rpx;
+  background: rgba(254, 213, 23, 1);
+  border-radius: 30rpx;
+  color: rgba(51, 51, 51, 1);
+  font-size: 26rpx;
+  line-height: 60rpx;
+  text-align: center;
+}
+
+.comment_title_but image {
+  width: 20rpx;
+  height: 20rpx;
+  margin-right: 10rpx;
+}
+
+.Review_words {
+  margin-top: 26rpx;
+  margin-bottom: 29rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  line-height: 42rpx;
+}
+
+.Review_img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Review_img image {
+  width: 227rpx;
+  height: 227rpx;
+  margin-top: 5rpx;
+}
+
+.Review_list {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30rpx;
+}
+
+.Review_data, .Review_data1, .Review_data2 {
+  width: 27%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Review_data image {
+  width: 40rpx;
+  height: 36rpx;
+}
+
+.Review_data1 image {
+  width: 38rpx;
+  height: 38rpx;
+}
+
+.Review_data2 image {
+  width: 38rpx;
+  height: 38rpx;
+}
+
+.comment_content {
+  margin-top: 20rpx;
+}
+
+.comment_content_list {
+  margin: 10rpx 0;
+}
+
+.commentlist{
+  margin-top: 20rpx;
+  background-color: #fff;
+  padding-top:30rpx;
+  padding-left: 30rpx; 
+}
+
+.commentlist_title{
+font-size:28rpx;
+font-family:PingFang SC;
+font-weight:500;
+color:rgba(51,51,51,1);
+line-height:30rpx;
+}

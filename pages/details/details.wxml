@@ -1,0 +1,49 @@
+    <!-- comment -->
+    <view class="comment">
+        <view class="comment_title">
+            <view class="comment_title_img">
+                <image src="../static/image/touxiang.png"></image>
+                <view class="comment_title_text">
+                    <view class="comment_title_text1">
+                        <text class="name">柯达西</text>
+                    </view>
+                    <view class="comment_title_dengji">
+                        <view class="time">10分钟前</view>
+                    </view>
+                </view>
+            </view>
+
+            <view class="comment_title_but">
+                  <image src="../static/image/heijia.png"></image>
+                  <text>加好友</text>
+            </view>
+        </view>
+        <view class="Review_words">
+            岳麓山。可以坐车来到湖南大学，附近有很多小吃噢，然后去爬爬5A级别的岳麓山景区。在刚上山的时候，你会经过一个岳麓书院，这个需要门票，半价是20元，去感受一下什么叫书香门第。
+        </view>
+        <view class="Review_img">
+            <image src="../static/image/pinglunt.png" wx:for="{{3}}" wx:key="index"></image>
+        </view>
+        <view class="Review_list">
+           <view class="Review_data">
+               <image src="../static/image/xingixng.png"></image>
+               <text>1.1k</text>
+           </view>
+
+           <view class="Review_data1">
+               <image src="../static/image/pinglun.png"></image>
+               <text>320</text>
+           </view>
+
+           <view class="Review_data2">
+               <image src="../static/image/zhuangfa.png"></image>
+               <text>98</text>
+           </view>
+        </view>
+       
+    </view>
+
+    <!-- commebt_list -->
+      <view class="commentlist">
+            <view class="commentlist_title">全部评论</view>
+    </view>
