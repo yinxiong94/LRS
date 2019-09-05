@@ -1,11 +1,11 @@
 {
   "pages": [
+    "pages/my_ friend/my_ friend",
     "pages/my_ About/my_ About",
     "pages/square/square",
     "pages/About_agency/About_agency",
     "pages/details/details",
     "pages/homePage/homePage"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",
