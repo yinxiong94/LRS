@@ -1,0 +1,70 @@
+<view class="container">
+     <!-- select_title  -->
+    <view class="select_title">
+        <view class="{{cruu==0?'select_title_click':''}}" data-cruu="0" bindtap="locationdj">已完成</view>
+        <view class="{{cruu==1?'select_title_click':''}}" data-cruu="1" bindtap="locationdj">进行中</view>
+        <view class="{{cruu==2?'select_title_click':''}}" data-cruu="2" bindtap="locationdj">组队失败</view>
+    </view>
+    <!-- but -->
+    <view class="select_but">
+        <view class="{{select==0?'select_but1':''}}" data-select="0" bindtap="select">全部对战</view>
+        <view class="{{select==1?'select_but1':''}}" data-select="1" bindtap="select">自由匹配</view>
+        <view class="{{select==2?'select_but1':''}}" data-select="2" bindtap="select">排位赛</view>
+    </view>
+
+
+    <!-- game0 -->
+  <view class="game " wx:for="{{3}}" wx:key="index" >
+    <!-- 标题图 -->
+    <view class="game_Img">
+      <image src="../static/image/larensha.png"></image>
+    </view>
+    <view class="game1">
+      <!-- title -->
+      <view class="game_title">
+        <text>欢迎加入游戏</text>
+        <view class="time_text">
+          <text>5</text>
+          <text>/</text>
+          <text>9人</text>
+        </view>
+      </view>
+
+      <!-- details -->
+      <view class="details">
+        <!-- <view>9人种狼局</view> -->
+        <view>550662房</view>
+        <view class="location11_but">
+          <image src="../static/image/jingzhi.png"></image>
+          <text>禁止吸烟</text>
+        </view>
+        <view class="game_title_img">
+          <image src="../static/image/zhuazi.png"></image>
+          <text>浣熊靓仔俱乐部</text>
+        </view>
+      </view>
+
+      <!-- time -->
+      <view class="time">
+        <view class="time1">
+          <image src="../static/image/time.png"></image>
+          <text>08/06 14:30</text>
+        </view>
+        <!-- grade -->
+        <view class="grade">
+          <image src="../static/image/dengju.png"></image>
+          <text>狼王场</text>
+        </view>
+      </view>
+
+      <!-- location -->
+      <!-- <view class="location11">
+        <view class="location22">
+          <image src="../static/image/location22.png"></image>
+          <text>长沙市天心区创谷产业园aaa</text>
+        </view>
+      </view> -->
+    </view>
+  </view>
+</view>
+  
