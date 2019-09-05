@@ -73,5 +73,8 @@
 
     <!-- comment_box -->
     <view class="comment_box">
-        
+        <view class="comment_box_input">
+          <input type="text" placeholder="留的点你想说的"></input>
+        </view>
+        <view class="comment_box_but">发送</view>
     </view>
