@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/combat/combat",
     "pages/room_card/room_card",
     "pages/ seat_card/ seat_card",
     "pages/homePage/homePage",
@@ -9,7 +10,6 @@
     "pages/square/square",
     "pages/About_agency/About_agency",
     "pages/details/details"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",

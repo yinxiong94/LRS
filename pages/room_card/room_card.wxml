@@ -1,7 +1,7 @@
 <view calss="container">
       <view class="card">
             <image src="../static/image/famhka.png"></image>
-            <view class="card_text">座位卡剩余10张</view>
+            <view class="card_text">房卡剩余10张</view>
       </view>
 
       <view class="card_but">

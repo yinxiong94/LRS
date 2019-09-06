@@ -1,0 +1,110 @@
+page {
+  background: linear-gradient(0deg, rgba(84, 47, 163, 1) 0%, rgba(55, 31, 115, 1) 100%);
+}
+
+.container {
+  padding: 30rpx;
+}
+
+.combat {
+  width:  100%;
+  height: 150rpx;
+  background: rgba(75, 50, 191, 1);
+  border-radius: 10rpx;
+  margin-bottom: 30rpx;
+  padding: 20rpx 0 20rpx 0;
+  display: flex;
+}
+
+/* 失败的颜色的背景 */
+.combat1{
+  background: linear-gradient(0deg, rgba(104, 43, 236, 1) 0%, rgba(129, 88, 246, 1) 100%);
+}
+/* 成功字体颜色 */
+.victory1{
+  color: rgba(254, 213, 23, 1);
+   font-size: 42rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  line-height: 50rpx;
+}
+
+
+.combat_img {
+  width: 300rpx;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.combat_img_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.combat_img {
+  display: flex;
+}
+
+.combat_img image {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 10rpx;
+}
+
+.victory {
+  font-size: 42rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(153, 153, 153, 1);
+  line-height: 50rpx;
+}
+
+.identity {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  line-height: 50rpx;
+}
+
+.grade {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  line-height: 50rpx;
+}
+
+.combat_icon{
+  height: 100%;
+  width: 1px;
+  background: #fff;
+}
+
+.combat_details{
+  width: 360rpx;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.combat_details view:nth-child(1){
+  font-size:30rpx;
+font-family:PingFang SC;
+font-weight:bold;
+color:rgba(255,255,255,1);
+line-height:50rpx;
+}
+
+.combat_details view:nth-child(2){
+  font-size:20rpx;
+font-family:PingFang SC;
+font-weight:bold;
+color:rgba(255,255,255,1);
+line-height:50rpx;
+}

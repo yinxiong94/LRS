@@ -1,0 +1,17 @@
+<view class="container">
+    <view class="combat" wx:for="{{3}}" wx:key="index">
+        <view class="combat_img">
+            <image src="../static/image/touxian.jpg"></image>
+            <view class="combat_img_text">
+                <view class="victory">失败</view>
+                <view class="identity">平民</view>
+                <view class="grade">评分-3.5</view>
+            </view>
+        </view>
+        <view class="combat_icon"></view>
+        <view class="combat_details">
+          <view>12人标准场（默认主题)</view>
+          <view>对战53分钟（8-6 23：37：37)</view>
+        </view>
+    </view>
+</view>
