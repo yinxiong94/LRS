@@ -1,0 +1,209 @@
+page {
+  background: rgba(245, 245, 245, 1);
+}
+
+.my_club, .nearby_club, .recommend_club {
+  background: #fff;
+  padding: 30rpx;
+}
+
+.club_title {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(34, 34, 34, 1);
+  line-height: 32rpx;
+}
+
+.club_img {
+  width: 100%;
+  height: 350rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.club_img image {
+  width: 130rpx;
+  height: 118rpx;
+  margin-bottom: 20rpx;
+}
+
+.club_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(153, 153, 153, 1);
+  line-height: 32rpx;
+}
+
+.club_but {
+  width: 130rpx;
+  height: 50rpx;
+  background: rgba(254, 213, 23, 1);
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  text-align: center;
+  line-height: 50rpx;
+  margin: 0 auto;
+}
+
+.nearby_club {
+  margin: 30rpx 0;
+}
+
+.scrollstyle {
+  white-space: nowrap;
+  height: 330rpx;
+}
+
+.scrollstyle_text:nth-child(1) {
+  margin-left: 5rpx;
+}
+
+.scrollstyle_text {
+  width: 250rpx;
+  height: 300rpx;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 3rpx 10rpx 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10rpx;
+  display: inline-block;
+  margin-right: 20rpx;
+  margin-top: 10rpx;
+  position: relative;
+}
+
+.club_scrollstyle {
+  margin-top: 20rpx;
+}
+
+.scrollstyle_but {
+  width: 144rpx;
+  height: 50rpx;
+  background: rgba(254, 213, 23, 1);
+  border-radius: 25rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  text-align: center;
+  line-height: 50rpx;
+  position: absolute;
+  bottom: -10px;
+  left: 55rpx;
+}
+
+.scrollstyle_img {
+  width: 100%;
+  height: 250rpx;
+}
+
+.scrollstyle_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.scrollstyle_img image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(29, 32, 35, 1);
+}
+
+.sum {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(153, 153, 153, 1);
+}
+
+.scrollstyle_text>image {
+  width: 24rpx;
+  height: 25rpx;
+  position: absolute;
+  right: 16rpx;
+  top: 16rpx;
+}
+
+.recommend_club {
+}
+
+.recommend_club_list {
+  width: 690rpx;
+  height: 200rpx;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10rpx;
+  margin-top: 35rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recommend_club_list image {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+}
+
+.list_name {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+}
+
+.list_name_but {
+  width: 120rpx;
+  height: 45rpx;
+  background: rgba(254, 213, 23, 1);
+  border-radius: 23rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  text-align: center;
+  line-height: 45rpx;
+}
+
+.recommend_club_list_content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500rpx;
+}
+
+.recommend_club1{
+  margin-left: 25rpx;
+}
+
+.member,.liveness,.notice{
+  font-size:26rpx;
+font-family:PingFang SC;
+font-weight:500;
+color:rgba(153,153,153,1);
+}
+.member{
+  margin-right: 61rpx;
+}
+
+.recommend_club1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
