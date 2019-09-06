@@ -1,1 +1,11 @@
+<view calss="container">
+      <view class="card">
+            <image src="../static/image/zuoweika.png"></image>
+            <view class="card_text">座位卡剩余10张</view>
+      </view>
 
+      <view class="card_but">
+        <view class="card_but1">使用</view>
+        <view class="card_but2">交易</view>
+      </view>
+</view>
