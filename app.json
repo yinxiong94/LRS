@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/classify/classify",
+    "pages/About_agency/About_agency",
     "pages/issue/issue",
     "pages/buy_ card/buy_ card",
     "pages/mine/mine",
@@ -14,7 +16,6 @@
     "pages/my_attention/my_attention",
     "pages/my_ About/my_ About",
     "pages/square/square",
-    "pages/About_agency/About_agency",
     "pages/details/details"
   ],
   "window": {
