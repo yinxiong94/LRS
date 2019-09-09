@@ -1,0 +1,145 @@
+.head {
+  background: url("http://m.qpic.cn/psb?/V103fdTR0PY8oM/1zfrKhwUJO4h8MPbhImFbc6GGzp7c15jQpvQZru8rgU!/b/dL4AAAAAAAAA&bo=7gI4Ae4COAEDCSw!&rf=viewer_4") 100% 100% no-repeat;
+  height: 312rpx;
+}
+
+.head_portrait {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.head_portrait {
+  display: flex;
+}
+
+.head_portrait>image {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  height: 200rpx;
+}
+
+.name image {
+  width: 23rpx;
+  height: 23rpx;
+  margin-right: 10rpx;
+}
+
+.head_grade {
+  height: 50%;
+}
+
+.head_grade {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.name_text {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(29, 32, 35, 1);
+}
+
+.name_grade {
+  display: inline-block;
+  width: 66rpx;
+  height: 34rpx;
+  background: rgba(255, 165, 14, 1);
+  border-radius: 10rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 34rpx;
+  margin-left: 10rpx;
+}
+
+.grade_text {
+  display: inline-block;
+  width: 116rpx;
+  height: 38rpx;
+  background: rgba(255, 165, 14, 1);
+  border-radius: 6rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 38rpx;
+}
+
+.grade_region {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  margin-left: 10rpx;
+}
+
+.line {
+  height: 20rpx;
+  background: rgba(245, 245, 245, 1);
+}
+
+.standings {
+  margin-top: 35rpx;
+  padding: 0 30rpx;
+  display: flex;
+}
+
+.standings_name {
+  width: 20%;
+  height: 110rpx;
+}
+
+.standings_list {
+  width: 80%;
+  height: 110rpx;
+  background: rgba(242, 242, 242, 1);
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list1 {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.numberof {
+  font-size: 42rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+}
+
+.ju {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(153, 153, 153, 1);
+}
+
+.transverse {
+  width: 2rpx;
+  height: 52rpx;
+  background: rgba(186, 186, 186, 1);
+}
