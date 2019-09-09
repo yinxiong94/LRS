@@ -1,0 +1,64 @@
+page {
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.cont_list {
+  background-color: #fff;
+  height: 100rpx;
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(245, 245, 245, 1);
+  padding-left: 30rpx;
+}
+
+.cont_list text {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+}
+
+.cont_list image {
+  width: 44rpx;
+  height: 39rpx;
+}
+
+.voice{
+  margin-top: 20rpx;
+}
+
+/*swtich整体大小及背景色*/
+.wx-switch-input{
+    /* width:77rpx !important;
+    height:36rpx !important; */
+    background: rgba(254, 213, 23, 1) !important;
+    border: rgba(254, 213, 23, 1) !important;
+    /* box-sizing: border-box !important; */
+}
+/*白色样式（false的样式）*/
+/* .wx-switch-input::before{
+    width:80rpx !important;
+    height: 36rpx !important;
+    border:1px #50d2c2 !important; 
+} */
+/*绿色样式（true的样式）*/
+/* .wx-switch-input::after{
+    width: 40rpx !important;
+    height: 36rpx !important;
+    border:1px #50d2c2 !important; 
+} */
+
+
+.exit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100rpx;
+  background-color: #fff;
+  font-size:32rpx;
+font-family:PingFang SC;
+font-weight:500;
+color:rgba(222,83,83,1);
+}

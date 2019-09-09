@@ -131,3 +131,8 @@
   text-align: center;
   line-height: 60rpx;
 }
+
+.attention image{
+  width: 28rpx;
+  height: 23rpx;
+}

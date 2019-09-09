@@ -1,0 +1,29 @@
+<view class="container">
+    <view class="cont_list">
+        <text>编辑资料</text>
+        <image src="../static/image/leif.png"></image>
+    </view>
+    <view class="cont_list">
+        <text>使用帮助</text>
+        <image src="../static/image/leif.png"></image>
+    </view>
+
+    <view class="cont_list voice">
+        <text>声音开关</text>
+        <switch checked bindchange="switch1Change"/>
+    </view>
+    <view class="cont_list">
+        <text>音效开关</text>
+        <switch checked bindchange="switch1Change"/>
+    </view>
+     <view class="cont_list">
+        <text>我的皮肤</text>
+        <image src="../static/image/leif.png"></image>
+    </view>
+     <view class="cont_list">
+        <text>游戏背景</text>
+        <image src="../static/image/leif.png"></image>
+    </view>
+
+    <view class="exit voice">退出登入</view>
+</view>
