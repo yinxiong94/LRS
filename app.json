@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/issue/issue",
     "pages/buy_ card/buy_ card",
     "pages/mine/mine",
     "pages/setting/setting",
