@@ -38,4 +38,6 @@
       <image src="../static/image/leif.png"></image>
     </view>
   </view>
+
+  <view class="but">发布</view>
 </view>

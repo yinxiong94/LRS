@@ -1,49 +1,46 @@
-textarea{
+textarea {
   /* border: 1px solid red; */
   width: 100% !important;
 }
 
-.textarea{
+.textarea {
   padding: 20rpx 20rpx 0 20rpx;
 }
 
-.uploading_img{
+.uploading_img {
   margin-left: 20rpx;
   display: flex;
 }
 
-.uploading{
+.uploading {
   position: relative;
   width: 180rpx;
   height: 180rpx;
   margin-right: 20rpx;
 }
 
-.uploading image:nth-child(1){
+.uploading image:nth-child(1) {
   width: 36rpx;
   height: 36rpx;
   position: absolute;
   right: -8rpx;
   top: -8rpx;
 }
-.uploading image:nth-child(2){
-  width: 180rpx;
-  height: 180rpx;
-  
-}
 
-
-.uploading1 image{
+.uploading image:nth-child(2) {
   width: 180rpx;
   height: 180rpx;
 }
 
+.uploading1 image {
+  width: 180rpx;
+  height: 180rpx;
+}
 
-.icon{
+.icon {
   border-top: 1px solid rgba(238, 238, 238, 1);
   margin-top: 109rpx;
 }
-
 
 .cont_list {
   background-color: #fff;
@@ -54,7 +51,6 @@ textarea{
   align-items: center;
   margin-left: 30rpx;
   border-bottom: 1px solid rgba(245, 245, 245, 1);
-  
 }
 
 .cont_list text {
@@ -69,29 +65,44 @@ textarea{
   height: 39rpx;
 }
 
-.voice{
+.voice {
   margin-top: 20rpx;
 }
 
-.cont_list_img{
+.cont_list_img {
   display: flex;
   align-items: center;
 }
 
-.cont_list_img image{
+.cont_list_img image {
   width: 36rpx;
   height: 42rpx;
   margin-right: 20rpx;
 }
 
-.cont_list_img1 image{
+.cont_list_img1 image {
   width: 38rpx;
   height: 38rpx;
   margin-right: 20rpx;
 }
 
-.cont_list_img2 image{
+.cont_list_img2 image {
   width: 36rpx;
   height: 37rpx;
   margin-right: 20rpx;
+}
+
+.but {
+  width: 600rpx;
+  height: 80rpx;
+  background: rgba(254, 213, 23, 1);
+  border-radius: 10rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  line-height: 80rpx;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 80rpx;
 }
