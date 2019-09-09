@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/mine/mine",
     "pages/setting/setting",
     "pages/my_club/my_club",
     "pages/my_ friend/my_ friend",
