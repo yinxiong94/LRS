@@ -113,7 +113,7 @@
       </view>
     </view>
 
-    <view class="but">查看更多</view>
+    <view class="but" bindtap="appdownload">查看更多</view>
 
     <view class="line"></view>
 
@@ -159,7 +159,23 @@
     <view class="zubut">
         <image src="../static/image/guangzhuta.png"></image>
         <text>关注</text>
-    </view>
+  </view>
+
+  <!-- 点击查看更多 -->
+  <view class="app_download" wx:if="{{isShow}}">
+      <view class="app_logo">
+          <image src="../static/image/touxian.jpg"></image>
+          <view class="app_logo_name">
+              <text>狼人杀</text>
+              <text>精彩的推理秀等你来</text>
+          </view>
+          <view class="download_but">
+                <image src="../static/image/xaizai.png"></image>
+                <text>立即下载</text>
+          </view>
+      </view>
+  </view>
+
 </view>
 
 

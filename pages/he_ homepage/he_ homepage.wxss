@@ -296,15 +296,90 @@
   color: rgba(153, 153, 153, 1);
 }
 
-.zubut{
-  height:100rpx;
-background:rgba(254,213,23,1);
-display: flex;
-justify-content: center;
-align-items: center;
+.zubut {
+  height: 100rpx;
+  background: rgba(254, 213, 23, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.zubut image{
+.zubut image {
   width: 30rpx;
   height: 31rpx;
+}
+
+.container {
+  position: relative;
+}
+
+.app_download {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  width: 750rpx;
+  height: 1855rpx;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app_logo {
+  height: 1000rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app_logo>image {
+  width: 156rpx;
+  height: 156rpx;
+  border-radius: 30rpx;
+}
+
+.download_but {
+  width: 400rpx;
+  height: 90rpx;
+  background: rgba(255, 164, 46, 1);
+  border-radius: 45rpx;
+  font-size: 40rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download_but image {
+  width: 39rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+
+.app_logo_name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.app_logo_name text:nth-child(1) {
+  font-size: 46rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  line-height: 36rpx;
+  display: inline-block;
+  margin-bottom: 26rpx;
+}
+
+.app_logo_name text:nth-child(2) {
+  font-size: 40rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
 }

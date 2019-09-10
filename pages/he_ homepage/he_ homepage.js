@@ -1,13 +1,25 @@
 // pages/he_ homepage/he_ homepage.js
+var that
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    isShow:false
   },
+  
 
+  /**
+   * 点击查看更多
+   */
+
+  appdownload(){
+      that = this
+      that.setData({
+        isShow:true
+      })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
