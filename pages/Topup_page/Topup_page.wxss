@@ -94,3 +94,13 @@
   color: rgba(255, 255, 255, 1);
   line-height: 40rpx;
 }
+
+.moniy{
+  background:linear-gradient(70deg,rgba(225,147,46,1),rgba(255,170,59,1));
+  border-radius:20rpx;
+  
+}
+
+.up1,.give1{
+  color: #fff;
+}

@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/my_ datum/my_ datum",
+    "pages/he_ homepage/he_ homepage",
     "pages/Topup_page/Topup_page",
     "pages/seek/seek",
-    "pages/he_ homepage/he_ homepage",
     "pages/classify/classify",
     "pages/About_agency/About_agency",
     "pages/issue/issue",

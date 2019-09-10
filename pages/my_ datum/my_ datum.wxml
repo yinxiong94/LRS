@@ -1,0 +1,112 @@
+<view class="container">
+    <view class="head">
+        <view class="head_portrait">
+          <view class="name">
+              <image src="../static/image/nanxing.png"></image>
+              <text>浣熊俱乐部</text>
+          </view>
+          <image src="../static/image/touxian.jpg"></image>
+          <text class="id">ID：222222</text>
+        </view>
+        <view class="head_grade">
+            <view class="grade_name">
+                <text class="name_text">湖南浣熊</text>
+                <text class="name_grade">LV.3</text>
+            </view>
+
+            <view class="grade_title">
+                <text class="grade_text">中级一阶</text>
+                <text class="grade_region">长沙赛区</text>
+            </view>
+        </view>
+    </view>
+
+    <view class="line"></view>
+
+    <view class="standings">
+        <view class="standings_name">
+            战绩
+        </view>
+        <view class="standings_list">
+            <view class="list1">
+                <text class="numberof">226</text>
+                <text class="ju">局</text>
+            </view>
+            <view class="transverse"></view>
+            <view class="list1">
+                <text class="numberof">226</text>
+                <text class="ju">胜</text>
+            </view>
+            <view class="transverse"></view>
+            <view class="list1">
+                <text class="numberof">226</text>
+                <text class="ju">败</text>
+            </view>
+        </view>
+    </view>
+
+    <view class="radar">雷达图</view>
+    <view class="line"></view>
+
+
+    <view class="message_list">
+        <view class="list_content">
+            <view>学历背景</view>
+            <view>本科</view>
+        </view>
+
+        <view class="list_content">
+            <view>年龄</view>
+            <view>50</view>
+        </view>
+
+        <view class="list_content">
+            <view>星座</view>
+            <view>巨蟹座</view>
+        </view>
+
+        <view class="list_content">
+            <view>身高</view>
+            <view>160com</view>
+        </view>
+
+        <view class="list_content">
+            <view>体重</view>
+            <view>100KG</view>
+        </view>
+
+        <view class="list_content">
+            <view>家乡</view>
+            <view>湖南-长沙</view>
+        </view>
+
+        <view class="list_content">
+            <view>行业</view>
+            <view>学生</view>
+        </view>
+    </view>
+    
+    <view class="line"></view>
+    <view class="zubut">
+        <image src="../static/image/guangzhuta.png"></image>
+        <text>关注</text>
+  </view>
+
+  <!-- 点击查看更多 -->
+  <view class="app_download" wx:if="{{isShow}}">
+      <view class="app_logo">
+          <image src="../static/image/touxian.jpg"></image>
+          <view class="app_logo_name">
+              <text>狼人杀</text>
+              <text>精彩的推理秀等你来</text>
+          </view>
+          <view class="download_but">
+                <image src="../static/image/xaizai.png"></image>
+                <text>立即下载</text>
+          </view>
+      </view>
+  </view>
+
+</view>
+
+

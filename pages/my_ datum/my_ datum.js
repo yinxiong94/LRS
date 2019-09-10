@@ -1,20 +1,13 @@
-// pages/Topup_page/Topup_page.js
-var that
+// pages/my_ datum/my_ datum.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    cruu:0
+
   },
 
-  jump(e){
-    that = this
-    that.setData({
-      cruu: e.currentTarget.dataset.cruu
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */
