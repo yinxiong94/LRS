@@ -20,7 +20,9 @@
             </view>
         </view>
     </view>
+
     <view class="line"></view>
+
     <view class="standings">
         <view class="standings_name">
             战绩
@@ -41,6 +43,122 @@
                 <text class="ju">败</text>
             </view>
         </view>
+    </view>
+  
+    <view class="Winningdetails">
+      <view class="Recorddetails">
+        <view class="circle circle1">
+            <text>狼人</text>
+            <text>战绩</text>
+        </view>
+        <view class="score">
+          <view class="score_text">
+            <view class="shenglv">
+                <text>52%胜率</text>
+                <text>70分</text>
+            </view>
+
+            <view class="jusheng">
+                <text>52局</text>
+                <text>30胜</text>
+            </view>
+
+            <view class="dianshu">点4神次数：8</view>
+          </view>
+        </view>
+      </view>
+
+      <view class="Recorddetails">
+        <view class="circle circle2">
+            <text>神职</text>
+            <text>战绩</text>
+        </view>
+        <view class="score">
+            <view class="score_text">
+            <view class="shenglv">
+                <text>52%胜率</text>
+                <text>70分</text>
+            </view>
+
+            <view class="jusheng">
+                <text>52局</text>
+                <text>30胜</text>
+            </view>
+
+            <view class="dianshu">点4神次数：8</view>
+          </view>
+        </view>
+      </view>
+
+      <view class="Recorddetails">
+        <view class="circle circle3">
+            <text>平民</text>
+            <text>战绩</text>
+        </view>
+        <view class="score">
+            <view class="score_text">
+            <view class="shenglv">
+                <text>52%胜率</text>
+                <text>70分</text>
+            </view>
+
+            <view class="jusheng">
+                <text>52局</text>
+                <text>30胜</text>
+            </view>
+
+            <view class="dianshu">点4神次数：8</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="but">查看更多</view>
+
+    <view class="line"></view>
+
+
+    <view class="message_list">
+        <view class="list_content">
+            <view>学历背景</view>
+            <view>本科</view>
+        </view>
+
+        <view class="list_content">
+            <view>年龄</view>
+            <view>50</view>
+        </view>
+
+        <view class="list_content">
+            <view>星座</view>
+            <view>巨蟹座</view>
+        </view>
+
+        <view class="list_content">
+            <view>身高</view>
+            <view>160com</view>
+        </view>
+
+        <view class="list_content">
+            <view>体重</view>
+            <view>100KG</view>
+        </view>
+
+        <view class="list_content">
+            <view>家乡</view>
+            <view>湖南-长沙</view>
+        </view>
+
+        <view class="list_content">
+            <view>行业</view>
+            <view>学生</view>
+        </view>
+    </view>
+    
+    <view class="line"></view>
+    <view class="zubut">
+        <image src="../static/image/guangzhuta.png"></image>
+        <text>关注</text>
     </view>
 </view>
 
