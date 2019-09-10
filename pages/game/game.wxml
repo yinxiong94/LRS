@@ -1,0 +1,26 @@
+<view class="container">
+    <view class="cont_textbox">
+        <view class="button">
+            <view class="button1">
+                <text>角色介绍</text>
+            </view>
+
+            <view class="button1">
+                <text>游戏进程</text>
+            </view>
+
+            <view class="button1">
+                <text>游戏进程</text>
+            </view>
+        </view>
+        <view class="cont_text">
+            <view>法官提示</view>
+            <view>这个游戏的灵魂是语言和逻辑，在游戏里同时感受声音的魅力</view>
+            <view class="hint_but">狼人阵营</view>
+            <view>
+                <text class="laren">狼人：</text>
+                <text>天黑了刀一人</text>
+            </view>
+        </view>
+    </view>
+</view>
