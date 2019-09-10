@@ -1,0 +1,28 @@
+.cont {
+  width: 600rpx;
+  height: 72rpx;
+  background: rgba(245, 245, 245, 1);
+  border-radius: 36rpx;
+  display: flex;
+  align-items: center;
+}
+
+.cont image {
+  width: 38rpx;
+  height: 39rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cont_text {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 159, 55, 1);
+}
