@@ -1,13 +1,22 @@
 // pages/region/region.js
+var that
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    crru:0
   },
-
+  /**
+   * 点击事件
+   */
+  jump(e){
+    that = this
+    that.setData({
+      crru: e.currentTarget.dataset.crru
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
