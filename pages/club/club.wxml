@@ -1,0 +1,159 @@
+<view>
+  <view class="bg"></view>
+  <swiper>
+    <swiper-item>
+      <image src="../static/image/1.png"></image>
+    </swiper-item>
+  </swiper>
+
+  <view class="nav">
+    <view class="{{tab==0?'check':''}}" bindtap="tab" data-tab="0">详细资料</view>
+    <view class="{{tab==1?'check':''}}" bindtap="tab" data-tab="1">对局</view>
+    <view class="{{tab==2?'check':''}}" bindtap="tab" data-tab="2">加入俱乐部</view>
+    <view class="{{tab==3?'check':''}}" bindtap="tab" data-tab="3">俱乐部排行榜</view>
+  </view>
+
+  <view class="box" wx:if="{{tab==0}}">
+    <view class="tx_box">
+      <image src="../static/image/2.png" class="tx"></image>
+    </view>
+    <view class="name">浣熊俱乐部</view>
+    <view class="notice">公告：加入我们，相亲相爱的一家人。一起享受愉快的桌游，我们有着全面的线下硬件，让您享受最舒适的游戏环境，你还在等待什么，加入我们吧!</view>
+    <view class="about">关于俱乐部</view>
+    <view class="details">湖南浣熊俱乐部，位于天心区当时的意思是贵族在乡间招待贵宾的别墅，国内被称为等。酒店，其基本定义是提供安全、舒适，令利用者得到短期的休息或睡眠的空间的商业机构。一般地说来就是给宾客提供歇宿和饮食的场所。具体地说饭店是以它的建筑物为凭证，通过出售客房、餐饮及综合服务设施向客人提供服务，从而获得经济收益的组织. </view>
+    <view class="tel">
+      <image src="../static/image/3.png"></image>
+      <view>联系方式：</view>
+      <view>0731-2986241</view>
+    </view>
+    <view class="dizhi">
+      <image src="../static/image/4.png"></image>
+      <view>长沙市天心区雀园路创谷产业园A2栋602</view>
+    </view>
+    <view class="hx"></view>
+    <view class="ss">俱乐部设施</view>
+    <view class="sst">
+      <image src="../static/image/5.png"></image>
+      <image src="../static/image/6.png"></image>
+      <image src="../static/image/7.png"></image>
+      <image src="../static/image/8.png"></image>
+      <image src="../static/image/9.png"></image>
+    </view>
+  </view>
+
+  <view wx:if="{{tab==1}}">
+    <view class="tab1">
+      <view class="{{tab1==0?'check1':''}}" bindtap="tab1" data-tab1="0">组局中</view>
+      <view class="{{tab1==1?'check1':''}}" bindtap="tab1" data-tab1="1">对局中</view>
+    </view>
+    <view class="game" wx:for="{{5}}" wx:key="index">
+      <!-- 标题图 -->
+      <view class="game_Img">
+        <image src="../static/image/larensha.png"></image>
+      </view>
+      <view class="game1">
+        <!-- title -->
+        <view class="game_title">
+          <text>欢迎加入游戏-9人种狼局</text>
+          <view class="time_text">
+            <text>5</text>
+            <text>/</text>
+            <text>9人</text>
+          </view>
+        </view>
+
+        <!-- details -->
+        <view class="details1">
+          <view>550662房</view>
+          <view class="location11_but">
+            <image src="../static/image/jingzhi.png"></image>
+            <text>禁止吸烟</text>
+          </view>
+          <view class="game_title_img">
+            <image src="../static/image/zhuazi.png"></image>
+            <text>浣熊靓仔俱乐部</text>
+          </view>
+        </view>
+
+        <!-- time -->
+        <view class="time">
+          <view class="time1">
+            <image src="../static/image/time.png"></image>
+            <text>08/06 14:30</text>
+          </view>
+          <view class="grade">
+            <image src="../static/image/dengju.png"></image>
+            <text>狼王场</text>
+          </view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+
+  <view class="box3" wx:if="{{tab==2}}">
+    <view class="box3_name">
+      <image src="../static/image/10.png" class="xtx"></image>
+      <view>浣熊俱乐部</view>
+    </view>
+    <view class="join">加入即享受尊贵的会员权益</view>
+    <view class="club2">
+      <view class="sx"></view>
+      <view>俱乐部权益</view>
+    </view>
+    <view class="equity">
+      <image src="../static/image/11.png"></image>
+      <image src="../static/image/12.png"></image>
+      <image src="../static/image/13.png"></image>
+    </view>
+
+    <view class="club3">
+      <view class="sx"></view>
+      <view>专属特权</view>
+    </view>
+
+    <image src="../static/image/14.png" class="img1"></image>
+
+    <view class="privilege">
+      <image src="../static/image/15.png" class="img15"></image>
+      <image src="../static/image/16.png" class="img16"></image>
+      <view class="txt">
+        <view>每月会员活动日</view>
+        <view>会员无需排队</view>
+        <view>急速配对无需等待</view>
+      </view>
+    </view>
+
+    <view class="apply">申请加入</view>
+
+  </view>
+
+  <view wx:if="{{tab==3}}" class="box4">
+    <view class="box4_tx">
+      <view class="box4_tx_1">
+        <image src="../static/image/17.png"></image>
+      </view>
+      <view class="txt1">本俱乐部排名 第
+        <text>7</text> 名 </view>
+    </view>
+
+    <image src="../static/image/19.png" class="img19"></image>
+    <image src="../static/image/17.png" class="img_1"></image>
+    <image src="../static/image/18.png" class="img18"></image>
+    <image src="../static/image/17.png" class="img_2"></image>
+    <image src="../static/image/20.png" class="img20"></image>
+    <image src="../static/image/17.png" class="img_3"></image>
+    <image src="../static/image/21.png" class="img21"></image>
+    <view class="t1">特别狼王俱乐部</view>
+    <view class="t2">靓仔靓女俱乐部</view>
+    <view class="t3">其实很简单</view>
+    <view class="sbox">
+      <view class="sbox_1" wx:for="{{3}}" wx:key="index">
+        <view>{{index+4}}.</view>
+        <view class="sbox_1_1"><image src="../static/image/17.png"></image></view>
+        <view>哟儿园</view>
+      </view>
+    </view>
+
+  </view>
+</view>

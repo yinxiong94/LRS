@@ -1,0 +1,639 @@
+page {
+  background-color: #f1f1f1;
+}
+
+swiper {
+  width: 689rpx;
+  height: 415rpx;
+  margin: auto;
+  border-radius: 12rpx;
+  box-shadow: 0rpx 5rpx 15rpx 0rpx rgba(135, 135, 135, 0.65);
+}
+
+swiper image {
+  width: 689rpx;
+  height: 415rpx;
+}
+
+.bg {
+  width: 100%;
+  height: 230rpx;
+  background: #e1932e;
+  position: absolute;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #626161;
+}
+
+.nav view {
+  padding-bottom: 15rpx;
+  font-family: PingFang SC;
+}
+
+.check {
+  border-bottom: 3rpx solid #e1932e;
+  font-size: 30rpx;
+  color: #e1932e;
+  font-weight: bold;
+}
+
+.box {
+  margin-top: 50rpx;
+  background: url("http://www.xxffpt.com/club_bg.png") no-repeat;
+  background-size: 100%;
+  padding-top: 145rpx;
+}
+
+.bg1 {
+  width: 475rpx;
+  height: 584rpx;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(255, 255, 255, 0.15));
+  margin: auto;
+  position: absolute;
+  left: 137rpx;
+}
+
+.bg2 {
+  width: 570rpx;
+  height: 584rpx;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(255, 255, 255, 0.15));
+  margin: auto;
+  position: absolute;
+  left: 90rpx;
+}
+
+.tx_box {
+  width: 110rpx;
+  height: 110rpx;
+  background: rgba(231, 181, 154, 1);
+  border-radius: 18rpx;
+  margin: auto;
+}
+
+.tx {
+  width: 42rpx;
+  height: 52rpx;
+  margin-left: 34rpx;
+  margin-top: 29rpx;
+}
+
+.name {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(225, 147, 46, 1);
+  line-height: 180rpx;
+  text-align: center;
+}
+
+.notice {
+  width: 592rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(98, 97, 97, 1);
+  line-height: 40rpx;
+  margin: auto;
+}
+
+.about {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(48, 48, 48, 1);
+  line-height: 40rpx;
+  margin-left: 47rpx;
+  margin-top: 100rpx;
+}
+
+.details {
+  width: 647rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(98, 97, 97, 1);
+  line-height: 40rpx;
+  margin-left: 47rpx;
+  margin-top: 20rpx;
+}
+
+.tel {
+  display: flex;
+  margin-left: 50rpx;
+  margin-top: 50rpx;
+}
+
+.tel image {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+
+.dizhi {
+  display: flex;
+  margin-top: 35rpx;
+  margin-left: 50rpx;
+}
+
+.dizhi image {
+  width: 34rpx;
+  height: 40rpx;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+
+.hx {
+  width: 664rpx;
+  height: 1rpx;
+  background: rgba(213, 213, 213, 1);
+  margin: auto;
+  margin-top: 30rpx;
+}
+
+.ss {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(48, 48, 48, 1);
+  line-height: 40rpx;
+  margin-top: 40rpx;
+  margin-left: 50rpx;
+}
+
+.sst {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30rpx;
+}
+
+.sst image {
+  width: 118rpx;
+  height: 116rpx;
+}
+
+.tab1 {
+  display: flex;
+  margin-top: 40rpx;
+  margin-left: 30rpx;
+}
+
+.tab1 view {
+  width: 134rpx;
+  height: 48rpx;
+  background: #cbcbcb;
+  border-radius: 24rpx;
+  text-align: center;
+  font-size: 28rpx;
+  color: #636262;
+  line-height: 48rpx;
+  margin-right: 35rpx;
+}
+
+.check1 {
+  background: #e1932e !important;
+  color: #fff !important;
+}
+
+.game {
+  border-radius: 26rpx;
+  margin: 0 auto;
+  margin-top: 53rpx;
+  padding: 20rpx 26rpx;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.game_Img {
+  margin-right: 20rpx;
+}
+
+.game_Img image {
+  width: 170rpx;
+  height: 150rpx;
+}
+
+.game_title_img image {
+  width: 28rpx;
+  height: 27rpx;
+}
+
+.game1 {
+  width: 520rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.game_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.game_title>text {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(244, 142, 10, 1);
+}
+
+.game1_title_img {
+  display: flex;
+  align-items: center;
+}
+
+.game_title_img>text {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(155, 155, 155, 1);
+  display: inline-block;
+  margin-left: 10rpx;
+}
+
+.details1 {
+  display: flex;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  justify-content: space-between;
+}
+
+.details>view:nth-child(1) {
+  margin-right: 80rpx;
+}
+
+.time image {
+  width: 26rpx;
+  height: 26rpx;
+  margin-right: 10rpx;
+}
+
+.time {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+}
+
+.time1 {
+  margin-right: 30rpx;
+}
+
+.grade image {
+  width: 30rpx;
+  height: 25rpx;
+  margin-right: 10rpx;
+}
+
+.grade {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+}
+
+.location11 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location11_but {
+  width: 140rpx;
+  height: 36rpx;
+  background: rgba(225, 147, 46, 1);
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 22rpx;
+}
+
+.location11_but image {
+  width: 30rpx;
+  height: 20rpx;
+}
+
+.location22 {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(130, 130, 130, 1);
+  display: flex;
+  align-items: center;
+}
+
+.location22 image {
+  width: 23rpx;
+  height: 28rpx;
+  margin-right: 10rpx;
+}
+
+.location22>text {
+  display: inline-block;
+  width: 250rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.box3 {
+  background: url("http://www.xxffpt.com/club_bg2.png") no-repeat;
+  margin-top: 25rpx;
+  background-size: 100%;
+  background-color: #fff;
+  padding-bottom: 50rpx;
+}
+
+.box3_name {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 196, 162, 1);
+  display: flex;
+  padding-top: 20rpx;
+}
+
+.box3_name image {
+  vertical-align: middle;
+  margin-top: 8rpx;
+  margin-right: 20rpx;
+}
+
+.xtx {
+  width: 28rpx;
+  height: 26rpx;
+  margin-left: 70rpx;
+}
+
+.join {
+  width: 440rpx;
+  height: 34rpx;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 217, 187, 1);
+  margin: auto;
+  margin-top: 30rpx;
+}
+
+.club2 {
+  display: flex;
+  margin-left: 30rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  line-height: 30rpx;
+  margin-top: 100rpx;
+}
+
+.sx {
+  width: 11rpx;
+  height: 30rpx;
+  background: rgba(225, 147, 46, 1);
+  margin-right: 15rpx;
+}
+
+.equity {
+  display: flex;
+  padding: 30rpx;
+  justify-content: space-between;
+}
+
+.equity image {
+  width: 214rpx;
+  height: 220rpx;
+}
+
+.club3 {
+  display: flex;
+  margin-left: 30rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  line-height: 30rpx;
+  margin-top: 20rpx;
+}
+
+.img1 {
+  width: 100%;
+}
+
+.privilege {
+  display: flex;
+  margin-top: -350rpx;
+}
+
+.img15 {
+  width: 54rpx;
+  height: 53rpx;
+  margin-left: 65rpx;
+  margin-right: 30rpx;
+  margin-top: 72rpx;
+}
+
+.img16 {
+  width: 2rpx;
+  height: 196rpx;
+  margin-right: 30rpx;
+}
+
+.txt {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  line-height: 60rpx;
+}
+
+.apply {
+  width: 246rpx;
+  height: 67rpx;
+  background: rgba(227, 156, 64, 1);
+  border-radius: 34rpx;
+  font-size: 36rpx;
+  font-weight: 500;
+  font-family: PingFang SC;
+  color: #fff;
+  line-height: 67rpx;
+  text-align: center;
+  margin: auto;
+  margin-top: 150rpx;
+}
+
+.box4 {
+  width: 100%;
+  background: #e1932e;
+  position: relative;
+}
+
+.box4_tx {
+  display: flex;
+}
+
+.box4_tx_1 {
+  width: 90rpx;
+  height: 90rpx;
+  border: 6rpx solid #ffc0d4;
+  border-radius: 50%;
+  margin-left: 160rpx;
+  margin-top: 50rpx;
+}
+
+.box4_tx_1 image {
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.txt1 {
+  line-height: 202rpx;
+  color: #fff;
+  margin-left: 40rpx;
+  font-size: 28rpx;
+}
+
+.txt1 text {
+  font-size: 34rpx;
+  color: #02f;
+}
+
+.img19 {
+  width: 108rpx;
+  height: 132rpx;
+  position: absolute;
+  left: 112rpx;
+  top: 277rpx;
+}
+
+.img_1 {
+  width: 90rpx;
+  height: 90rpx;
+  position: absolute;
+  left: 120rpx;
+  top: 307rpx;
+}
+
+.img18 {
+  width: 160rpx;
+  height: 196rpx;
+  position: absolute;
+  left: 296rpx;
+  top: 186rpx;
+}
+
+.img_2 {
+  width: 136rpx;
+  height: 136rpx;
+  position: absolute;
+  left: 306rpx;
+  top: 232rpx;
+}
+
+.img20 {
+  width: 108rpx;
+  height: 132rpx;
+  position: absolute;
+  right: 120rpx;
+  top: 278rpx;
+}
+
+.img_3 {
+  width: 90rpx;
+  height: 90rpx;
+  position: absolute;
+  right: 130rpx;
+  top: 308rpx;
+}
+
+.img21 {
+  width: 624rpx;
+  height: 326rpx;
+  margin-left: 63rpx;
+  margin-top: 200rpx;
+}
+
+.t1 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(102, 102, 102, 1);
+  line-height: 20rpx;
+  position: absolute;
+  top: 566rpx;
+  left: 272rpx;
+  width: 200rpx;
+  text-align: center;
+}
+
+.t2 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(102, 102, 102, 1);
+  line-height: 20rpx;
+  position: absolute;
+  top: 606rpx;
+  left: 62rpx;
+  width: 200rpx;
+  text-align: center;
+}
+
+.t3 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(102, 102, 102, 1);
+  line-height: 20rpx;
+  position: absolute;
+  top: 636rpx;
+  right: 66rpx;
+  width: 200rpx;
+  text-align: center;
+}
+
+.sbox {
+  width: 702rpx;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10rpx;
+  margin: auto;
+  margin-top: -8rpx
+}
+
+.sbox_1{
+  display: flex;
+  line-height: 100rpx;
+  width: 618rpx;
+  margin: auto;
+  border-bottom: 1rpx solid #E5E5E5;
+  padding: 30rpx 0
+}
+
+.sbox_1_1{
+  width: 96rpx;
+  height: 96rpx;
+  border:2rpx solid #6a78d4;
+  border-radius: 50%;
+  margin-left: 50rpx;
+  margin-right: 50rpx
+}
+
+.sbox_1_1 image{
+  width: 96rpx;
+  height: 96rpx
+}
