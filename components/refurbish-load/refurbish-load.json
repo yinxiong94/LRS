@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {},
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "设备",
+  "navigationBarTextStyle": "black",
+  "disableScroll": true
+  }

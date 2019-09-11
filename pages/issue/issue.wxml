@@ -1,0 +1,43 @@
+<view class="container">
+  <view class="textarea">
+    <textarea placeholder="宝贝满足你的期待吗？说说你的使用心得，分享给想买的他们吧"></textarea>
+  </view>
+  <view class="uploading_img">
+    <view class="uploading">
+      <image src="../static/image/shanchu.png"></image>
+      <image src="../static/image/tianjia.png"></image>
+    </view>
+    <view class="uploading1">
+      <image src="../static/image/tianjia.png"></image>
+    </view>
+  </view>
+
+  <view class="icon"></view>
+  <view class="list">
+    <view class="cont_list">
+      <view class="cont_list_img">
+        <image src="../static/image/weizbi.png" class="cont_list_img_r"></image>
+        <text>我的俱乐部</text>
+      </view>
+      <image src="../static/image/leif.png"></image>
+    </view>
+
+    <view class="cont_list">
+      <view class="cont_list_img1">
+        <image src="../static/image/ait.png" class="cont_list_img_r"></image>
+        <text>提醒谁看</text>
+      </view>
+      <image src="../static/image/leif.png"></image>
+    </view>
+
+    <view class="cont_list">
+      <view class="cont_list_img2">
+        <image src="../static/image/shij.png" class="cont_list_img_r"></image>
+        <text>组局时间</text>
+      </view>
+      <image src="../static/image/leif.png"></image>
+    </view>
+  </view>
+
+  <view class="but">发布</view>
+</view>

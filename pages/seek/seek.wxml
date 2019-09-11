@@ -1,0 +1,7 @@
+<view class="container">
+    <view class="cont">
+        <image src="../static/image/fangdajin.png"></image>
+        <input placeholder="这里输入您想要输入的内容"></input>
+    </view>
+    <view class="cont_text">取消</view>
+</view>

@@ -1,0 +1,106 @@
+.container {
+  padding: 41rpx;
+}
+
+.cont_text {
+  font-size: 36rpx;
+  font-family: PingFangSC;
+  font-weight: bold;
+  color: rgba(66, 66, 66, 1);
+  line-height: 85rpx;
+}
+
+.recharge {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20rpx;
+}
+
+.money {
+  width: 300rpx;
+  height: 128rpx;
+  border: 1px solid rgba(227, 149, 47, 1);
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.up {
+  font-size: 34rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(66, 66, 66, 1);
+  line-height: 40rpx;
+}
+
+.give {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(226, 148, 47, 1);
+  line-height: 40rpx;
+}
+
+.bottom {
+  margin-bottom: 30rpx;
+}
+
+.money input {
+  width: 250rpx;
+  font-size: 34rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(66, 66, 66, 1);
+  line-height: 40rpx;
+  text-align: center;
+}
+
+.but {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
+  box-shadow: 0px 3px 7px 0px rgba(207, 207, 207, 0.35);
+}
+
+.but_amount {
+  width: 70%;
+  height: 100rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 38rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(66, 66, 66, 1);
+  line-height: 40rpx;
+}
+
+.but_close {
+  width: 30%;
+  height: 100rpx;
+  background: linear-gradient(70deg, rgba(225, 147, 46, 1), rgba(255, 170, 59, 1));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34rpx;
+  font-family: HiraginoSansGB;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 1);
+  line-height: 40rpx;
+}
+
+.moniy{
+  background:linear-gradient(70deg,rgba(225,147,46,1),rgba(255,170,59,1));
+  border-radius:20rpx;
+  
+}
+
+.up1,.give1{
+  color: #fff;
+}

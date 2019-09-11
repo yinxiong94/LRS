@@ -1,0 +1,23 @@
+<view class="container">
+    <view class="icon"></view>
+    <view class="title">
+        <view class="title_text">我的房卡：5张</view>
+        <view class="card">
+          <view class="room_card {{crru==0?'room_card1':'room_card2'}}" data-crru="0" bindtap="jump">
+                <view class="room_card_text">一张房卡</view>
+                <image src="../static/image/zuoweika1.png"></image>
+          </view>
+
+           <view class="room_card room_card_img1 {{crru==1?'room_card1':'room_card2'}}" data-crru="1" bindtap="jump">
+                <view class="room_card_text">二张房卡</view>
+                <image src="../static/image/zuoweika2.png" ></image>
+          </view>
+
+           <view class="room_card room_card_img2  {{crru==2?'room_card1':'room_card2'}}" data-crru="2" bindtap="jump">
+                <view class="room_card_text">三张房卡</view>
+                <image src="../static/image/zuoweika3.png" ></image>
+          </view>
+        </view>
+    </view>
+    <view class="pay">支付</view>
+</view>

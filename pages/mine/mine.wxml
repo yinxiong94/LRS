@@ -1,0 +1,103 @@
+<view class="container">
+  <view class="cont_top">
+    <view class="cont_top_img">
+      <image src="../static/image/touxian.jpg"></image>
+      <view class="cont_top_img_text">
+        <view>
+          <text class="name">湖南浣熊</text>
+          <text class="name_grade">LV.3</text>
+        </view>
+        <view class="man">
+          <!-- <image src="../static/image/man.png"></image> -->
+          <text class="name1">湖南浣熊</text>
+        </view>
+        <view>
+          <text class="grade">中级一介</text>
+          <text class="grade_name">长沙赛区</text>
+          <text class="grade_id">ID：22222222</text>
+        </view>
+      </view>
+    </view>
+    <view class="cont_top_integral">
+      <view class="integral">
+        <image src="../static/image/jinbi.png"></image>
+        <text>1299</text>
+      </view>
+      <view class="integral_text">信誉积分</view>
+    </view>
+  </view>
+  <view class="cont_top1">
+    <view class="cont_top1_list ">
+      <text>65</text>
+      <text>关注</text>
+    </view>
+    <view class="right"></view>
+    <view class="cont_top1_list">
+      <text>65</text>
+      <text>粉丝</text>
+    </view>
+    <view class="right"></view>
+    <view class="cont_top1_list">
+      <text>65</text>
+      <text>好友</text>
+    </view>
+  </view>
+
+  <view class="list">
+    <view class="cont_list">
+      <view class="cont_list_img">
+          <image src="../static/image/juleib.png" class="cont_list_img_r"></image>
+          <text>我的俱乐部</text>
+      </view>
+      <image src="../static/image/leif.png"></image>
+    </view>
+
+     <view class="cont_list">
+      <view class="cont_list_img1 cont_list_img_r">
+          <image src="../static/image/qianbao.png" class="cont_list_img_r"></image>
+          <text>我的资产</text>
+      </view>
+      <image src="../static/image/leif.png"></image>
+    </view>
+
+     <view class="cont_list">
+      <view class="cont_list_img1 cont_list_img_r cont_list_img">
+          <image src="../static/image/zuowei.png" class="cont_list_img_r"></image>
+          <text>座位卡</text>
+      </view>
+      <image src="../static/image/leif.png"></image>
+    </view>
+
+    <view class="cont_list top" >
+      <view class="cont_list_img2 cont_list_img_r cont_list_img">
+          <image src="../static/image/zhangji.png" class="cont_list_img_r"></image>
+          <text>我的战绩</text>
+      </view>
+      <image src="../static/image/leif.png"></image>
+    </view>
+
+     <view class="cont_list" >
+      <view class="cont_list_img2 cont_list_img_r cont_list_img">
+          <image src="../static/image/yueju.png" class="cont_list_img_r"></image>
+          <text>约局</text>
+      </view>
+      <image src="../static/image/leif.png"></image>
+    </view>
+
+     <view class="cont_list" >
+      <view class="cont_list_img3 cont_list_img_r cont_list_img">
+          <image src="../static/image/kefu.png" class="cont_list_img_r"></image>
+          <text>客服</text>
+      </view>
+      <image src="../static/image/leif.png"></image>
+    </view>
+
+     <view class="cont_list" >
+      <view class="cont_list_img4 cont_list_img_r cont_list_img">
+          <image src="../static/image/shezhi .png" class="cont_list_img_r"></image>
+          <text>设置</text>
+      </view>
+      <image src="../static/image/leif.png"></image>
+    </view>
+  </view>
+</view>

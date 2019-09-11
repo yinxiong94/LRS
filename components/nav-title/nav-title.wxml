@@ -1,0 +1,35 @@
+<!--components/nav-title/nav-title.wxml-->
+<view 
+  class='nav-box my-class' 
+  style='height: {{screenInfo.statusBarHeight + 46}}px;background: {{bgColor}};color: {{color}} !important;' 
+  wx:if='{{screenInfo.statusBarShow}}'
+>
+  <view class='title' wx:if='{{title}}'>
+    <view 
+      hover-class='hover-active' 
+      catchtap='_goBack' 
+      wx:if='{{screenInfo.statusBackShow}}'
+      hidden='{{!backShow}}'
+    >
+      <icon class='icon__back' />
+    </view>
+    <image src="../22.png" class="img1"></image>
+    <view class='col ellipsis-1 t1' style='padding-right: {{screenInfo.statusBackShow ? "42px" : "0"}};height:{{screenInfo.statusBarHeight + 46}}px;'>
+      {{A}}
+    </view>
+    <view class='col ellipsis-1 t2'>{{B}}</view>
+  </view>
+  <view style='height: 46px;'>
+    <slot name='title' />
+  </view>
+</view>
+<!-- 防止内容被覆盖 -->
+<view style='height: {{screenInfo.statusBarHeight + 46}}px;' wx:if='{{screenInfo.statusBarShow}}' />
+<view class='container' style='top: {{screenInfo.statusBarHeight + 46}}px;'>
+  <refurbish-load
+    bindscrolltoupper='scrolltoupper'
+    bindscrolltolower='scrolltolower'
+  >
+    <slot />
+  </refurbish-load>
+</view>

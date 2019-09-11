@@ -30,7 +30,8 @@
         </view>
       </view>
       <view class="attention">
-          互相关注
+          <!-- <image src="../static/image/huxiang.png"></image> -->
+          <text>互相关注</text>
       </view>
     </view>
 </view>

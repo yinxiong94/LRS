@@ -1,0 +1,31 @@
+<view class="container">
+    <view class="cont_text">充值金额</view>
+
+    <view class="recharge">
+        <view class="money bottom {{cruu==0?'moniy':''}}" data-cruu="0" bindtap="jump">
+          <view class="up {{cruu==0?'up1':''}}">冲150元</view>
+          <view class="give {{cruu==0?'give1':''}}">赠送100</view>
+        </view>
+
+        <view class="money bottom {{cruu==1?'moniy':''}}" data-cruu="1" bindtap="jump">
+          <view class="up {{cruu==1?'up1':''}}">冲100元</view>
+          <view class="give {{cruu==1?'give1':''}}">赠送50</view>
+        </view>
+
+        <view class="money {{cruu==2?'moniy':''}}"  data-cruu="2" bindtap="jump">
+          <view class="up {{cruu==2?'up1':''}}">冲50元</view>
+          <view class="give {{cruu==2?'give1':''}}">赠送20</view>
+        </view>
+
+        <view class="money ">
+          <input placeholder="这里输入金额" type="number"></input>
+        </view>
+    </view>
+
+    
+</view>
+
+<view class="but">
+        <view class="but_amount">合计：10元</view>
+        <view class="but_close">充值</view>
+</view>
