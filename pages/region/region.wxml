@@ -1,0 +1,28 @@
+<view class="container">
+    <view>
+      <scroll-view scroll-y="true" style="height: 100vh;width:178rpx; background-color: #eee;">
+        <view class="imgClass {{crru==0?'imgClass1':''}}" data-crru="0" bindtap="jump">附近距离</view>
+        <view class="imgClass {{crru==1?'imgClass1':''}}" data-crru="1" bindtap="jump">行政地区</view>
+        <view class="imgClass {{crru==2?'imgClass1':''}}" data-crru="2" bindtap="jump">商圈</view>
+        <view class="imgClass {{crru==3?'imgClass1':''}}" data-crru="3" bindtap="jump">学校</view>
+      </scroll-view>
+    </view>
+    <view class="distance">
+        <view class="distance_list">
+            <view class=" list_data1">
+                <text class="title">全区</text>
+                <image src="../static/image/gou.png"></image>
+            </view>
+            <view class="list_data">1km</view>
+            <view class="list_data">1km</view>
+            <view class="list_data">1km</view>
+        </view>
+    </view>
+
+    <view class="button_below">
+        <view class="chongzhi chakan">
+            重置
+        </view>
+        <view class="chongzhi chakan1">查看</view>
+    </view>
+</view>
