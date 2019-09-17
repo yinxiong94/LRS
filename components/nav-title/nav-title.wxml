@@ -13,7 +13,7 @@
     >
       <icon class='icon__back' />
     </view>
-    <image src="../22.png" class="img1"></image>
+    <image src="../22.png" class="img1" style="height:{{screenInfo.statusBarHeight + 47}}px"></image>
     <view class='col ellipsis-1 t1' style='padding-right: {{screenInfo.statusBackShow ? "42px" : "0"}};height:{{screenInfo.statusBarHeight + 46}}px;'>
       {{A}}
     </view>
