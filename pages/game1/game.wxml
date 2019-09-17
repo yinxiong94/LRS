@@ -1,4 +1,15 @@
 <nav-title paramAtoB='浣熊与你心连心,房间号：36015'> 
-    
+    <view class="Gamebackground">
+        <view class="titile_name">
+              <view class="titile_name_image">
+                  <view class="image_list">
+                  
+                      <image src="../static/image/touxian.jpg"></image>
+                  </view>
+                  <view class="name1">浣熊俱乐部</view>
+              </view>
+              <image src="../static/image/tuishi.png"></image>
+        </view>
+    </view>
 </nav-title>
 

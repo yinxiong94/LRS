@@ -36,7 +36,7 @@ Component({
   },
   attached: function () {               // 组件实例进入页面
     const _this = this;
-    console.log(_this.data.paramAtoB.split(","))
+    // console.log(_this.data.paramAtoB.split(","))
     this.setData({
       screenInfo: _this.screenInfo,
       A: _this.data.paramAtoB.split(",")[0],

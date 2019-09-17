@@ -19,7 +19,7 @@ view{box-sizing: border-box;}
   -moz-osx-font-smoothing: grayscale;
 }
 .img1{
-  width: 100%
+  width: 100%;
 }
 .t1{
   color:#fff;
