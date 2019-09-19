@@ -3,12 +3,13 @@
   background-size: 750rpx 100vh;
   background-repeat: no-repeat;
   width: 750rpx;
-  height: 91vh;
 }
 
-.titile_name{
+.titile_name {
   display: flex;
   justify-content: space-between;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx
 }
 
 .titile_name_image {
@@ -16,9 +17,10 @@
   align-items: center;
 }
 
-.hhh{
-  width: 100%
+.hhh {
+  width: 100%;
 }
+
 .titile_name>image {
   width: 52rpx;
   height: 52rpx;
@@ -42,4 +44,136 @@
   font-weight: 500;
   text-align: center;
   line-height: 43rpx;
+}
+
+.tx {
+  position: relative;
+  /* top:50rpx */
+  height: 184rpx
+}
+
+.img23 {
+  width: 130rpx;
+  height: 130rpx;
+}
+
+.img {
+  width: 110rpx;
+  height: 110rpx;
+  position: absolute;
+  left: 10rpx;
+  top: 10rpx;
+}
+
+.img25 {
+  width: 105rpx;
+  height: 30rpx;
+  position: absolute;
+  top: 125rpx;
+  left: 26rpx;
+}
+
+.img24 {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 118rpx;
+  left: 0rpx;
+}
+
+.img251 {
+  width: 105rpx;
+  height: 30rpx;
+  position: absolute;
+  top: 125rpx;
+  left: 0rpx;
+}
+
+.img241 {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 118rpx;
+  left: 92rpx;
+}
+
+.sf {
+  font-family: PangMenZhengDao;
+  font-weight: Regularl;
+  color: #fff;
+  width: 60rpx;
+  height: 34rpx;
+  background: rgba(129, 52, 52, 1);
+  border-radius: 12rpx;
+}
+
+.pm {
+  width: 19rpx;
+  height: 17rpx;
+  font-size: 26rpx;
+  font-family: zcool-gdh;
+  font-weight: 400;
+  color: rgba(254, 254, 254, 1);
+  position: absolute;
+  top:118rpx;
+  left: 14rpx
+}
+
+.pm1 {
+  width: 19rpx;
+  height: 17rpx;
+  font-size: 26rpx;
+  font-family: zcool-gdh;
+  font-weight: 400;
+  color: rgba(254, 254, 254, 1);
+  position: absolute;
+  top:118rpx;
+  right:8rpx
+}
+
+.img26{
+  width: 60rpx;
+  height: 34rpx;
+  position: absolute;
+  top:-15rpx;
+  left: 0
+}
+
+.name{
+  width:100rpx;
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  color:#fff ;
+  position: absolute;
+  top:120rpx;
+  left: 30rpx;
+  text-align: center;
+}
+
+.name2{
+  width:100rpx;
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  color:#fff ;
+  position: absolute;
+  top:120rpx;
+  text-align: center;
+}
+
+.img32{
+  width: 24rpx;
+  height: 24rpx;
+  position: absolute;
+  top:0;
+  left: 100rpx
+}
+
+.left{
+  position: absolute;
+  left: 0
+}
+
+.right{
+  position: absolute;
+  right: 0
 }

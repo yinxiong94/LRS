@@ -1,15 +1,37 @@
-<nav-title paramAtoB='浣熊与你心连心,房间号：36015'> 
-    <view class="Gamebackground">
-        <view class="titile_name">
-              <view class="titile_name_image">
-                  <view class="image_list">
-                  
-                      <image src="../static/image/touxian.jpg"></image>
-                  </view>
-                  <view class="name1">浣熊俱乐部</view>
-              </view>
-              <image src="../static/image/tuishi.png"></image>
+<nav-title paramAtoB='浣熊与你心连心,房间号：36015'>
+  <view class="Gamebackground">
+    <view class="titile_name">
+      <view class="titile_name_image">
+        <view class="image_list">
+          <image src="../static/image/touxian.jpg"></image>
         </view>
+        <view class="name1">浣熊俱乐部</view>
+      </view>
+      <image src="../static/image/tuishi.png"></image>
     </view>
-</nav-title>
 
+    <view class="tx" wx:for="{{6}}">
+      <view class="left">
+        <image src="../static/image/23.png" class="img23"></image>
+        <image src="../static/image/touxian.jpg" class="img"></image>
+        <image src="../static/image/25.png" class="img25"></image>
+        <image src="../static/image/24.png" class="img24"></image>
+        <image src="../static/image/26.png" class="img26"></image>
+        <view class="pm">1</view>
+        <view class="name">日落</view>
+        <image src="../static/image/32.png" class="img32"></image>
+      </view>
+      <view class="right">
+        <image src="../static/image/23.png" class="img23"></image>
+        <image src="../static/image/touxian.jpg" class="img"></image>
+        <image src="../static/image/25.png" class="img251"></image>
+        <image src="../static/image/24.png" class="img241"></image>
+        <image src="../static/image/28.png" class="img26"></image>
+        <view class="pm1">7</view>
+        <view class="name2">日落</view>
+        <image src="../static/image/33.png" class="img32"></image>
+      </view>
+    </view>
+
+  </view>
+</nav-title>

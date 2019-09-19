@@ -25,14 +25,12 @@ view{box-sizing: border-box;}
   color:#fff;
   position: absolute;
   font-size: 28rpx;
-  top:20rpx;
   left: 70rpx
 }
 .t2{
   font-size: 26rpx;
   color:#fff;
   position: absolute;
-  top:56rpx;
   left: 70rpx
 }
 .icon__back{padding: 0 10px;}

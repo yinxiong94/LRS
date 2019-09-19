@@ -14,10 +14,10 @@
       <icon class='icon__back' />
     </view>
     <image src="../22.png" class="img1" style="height:{{screenInfo.statusBarHeight + 47}}px"></image>
-    <view class='col ellipsis-1 t1' style='padding-right: {{screenInfo.statusBackShow ? "42px" : "0"}};'>
+    <view class='col ellipsis-1 t1' style='padding-right: {{screenInfo.statusBackShow ? "42px" : "0"}};top:{{screenInfo.statusBarHeight/2}}px'>
       {{A}}
     </view>
-    <view class='col ellipsis-1 t2'>{{B}}</view>
+    <view class='col ellipsis-1 t2' style="top:{{screenInfo.statusBarHeight/2+18}}px">{{B}}</view>
   </view>
   <view style='height: 46px;'>
     <slot name='title' />
