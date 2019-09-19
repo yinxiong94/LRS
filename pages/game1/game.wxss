@@ -3,13 +3,14 @@
   background-size: 750rpx 100vh;
   background-repeat: no-repeat;
   width: 750rpx;
+  position: relative;
 }
 
 .titile_name {
   display: flex;
   justify-content: space-between;
   padding-top: 20rpx;
-  padding-bottom: 20rpx
+  padding-bottom: 20rpx;
 }
 
 .titile_name_image {
@@ -49,7 +50,7 @@
 .tx {
   position: relative;
   /* top:50rpx */
-  height: 184rpx
+  height: 184rpx;
 }
 
 .img23 {
@@ -115,8 +116,8 @@
   font-weight: 400;
   color: rgba(254, 254, 254, 1);
   position: absolute;
-  top:118rpx;
-  left: 14rpx
+  top: 118rpx;
+  left: 14rpx;
 }
 
 .pm1 {
@@ -127,53 +128,126 @@
   font-weight: 400;
   color: rgba(254, 254, 254, 1);
   position: absolute;
-  top:118rpx;
-  right:8rpx
+  top: 118rpx;
+  right: 8rpx;
 }
 
-.img26{
+.img26 {
   width: 60rpx;
   height: 34rpx;
   position: absolute;
-  top:-15rpx;
-  left: 0
+  top: -15rpx;
+  left: 0;
 }
 
-.name{
-  width:100rpx;
+.name {
+  width: 100rpx;
   font-size: 20rpx;
   font-family: PingFang SC;
-  color:#fff ;
+  color: #fff;
   position: absolute;
-  top:120rpx;
+  top: 120rpx;
   left: 30rpx;
   text-align: center;
 }
 
-.name2{
-  width:100rpx;
+.name2 {
+  width: 100rpx;
   font-size: 20rpx;
   font-family: PingFang SC;
-  color:#fff ;
+  color: #fff;
   position: absolute;
-  top:120rpx;
+  top: 120rpx;
   text-align: center;
 }
 
-.img32{
+.img32 {
   width: 24rpx;
   height: 24rpx;
   position: absolute;
-  top:0;
-  left: 100rpx
+  top: 0;
+  left: 100rpx;
 }
 
-.left{
+.left {
   position: absolute;
-  left: 0
+  left: 0;
 }
 
-.right{
+.right {
   position: absolute;
-  right: 0
+  right: 0;
+}
+
+.middle {
+  background-image: url("http://m.qpic.cn/psb?/V103fdTR0PY8oM/1.uZFLVwRrt4ksXowGFOIXZjvYcmo0PoycflRf4NcD0!/b/dMUAAAAAAAAA&bo=2QF.AtkBfgIDCSw!&rf=viewer_4");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 473rpx;
+  height: 683rpx;
+  position: absolute;
+  top: 129rpx;
+  left: 143rpx;
+}
+
+.middle_title {
+  width: 384rpx;
+  height: 62rpx;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10rpx;
+  margin-top: 58rpx;
+  margin-left: 45rpx;
+  text-align: center;
+  line-height: 62rpx;
+}
+
+.middle_title text {
+  font-size: 23rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+}
+
+.middle_title1 {
+  width: 384rpx;
+  height: 313rpx;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10rpx;
+  margin-top: 30rpx;
+  margin-left: 45rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.middle_title1 text{
+  font-size:23rpx;
+font-family:PingFang SC;
+font-weight:500;
+color:rgba(147,9,9,1);
+line-height:34rpx;
+}
+
+.title_but{
+  position: absolute;
+  bottom: 28rpx;
+  left: 164rpx;
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.share image{
+  width: 79rpx;
+  height: 87rpx;
+}
+
+.prepare image{
+  width: 243rpx;
+  height: 90rpx;
+}
+
+.dialogue image{
+  width: 77rpx;
+  height: 85rpx;
 }
