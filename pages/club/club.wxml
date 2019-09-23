@@ -91,40 +91,55 @@
     </view>
   </view>
 
-  <view class="box3" wx:if="{{tab==2}}">
-    <view class="box3_name">
-      <image src="../static/image/10.png" class="xtx"></image>
-      <view>浣熊俱乐部</view>
-    </view>
-    <view class="join">加入即享受尊贵的会员权益</view>
-    <view class="club2">
-      <view class="sx"></view>
-      <view>俱乐部权益</view>
-    </view>
-    <view class="equity">
-      <image src="../static/image/11.png"></image>
-      <image src="../static/image/12.png"></image>
-      <image src="../static/image/13.png"></image>
+  <view wx:if="{{tab==2}}">
+    <view wx:if="{{isvip==0}}" class="box3">
+      <view class="box3_name">
+        <image src="../static/image/10.png" class="xtx"></image>
+        <view>浣熊俱乐部</view>
+      </view>
+      <view class="join">加入即享受尊贵的会员权益</view>
+      <view class="club2">
+        <view class="sx"></view>
+        <view>俱乐部权益</view>
+      </view>
+      <view class="equity">
+        <image src="../static/image/11.png"></image>
+        <image src="../static/image/12.png"></image>
+        <image src="../static/image/13.png"></image>
+      </view>
+
+      <view class="club3">
+        <view class="sx"></view>
+        <view>专属特权</view>
+      </view>
+
+      <image src="../static/image/14.png" class="img1"></image>
+
+      <view class="privilege">
+        <image src="../static/image/15.png" class="img15"></image>
+        <image src="../static/image/16.png" class="img16"></image>
+        <view class="txt">
+          <view>每月会员活动日</view>
+          <view>会员无需排队</view>
+          <view>急速配对无需等待</view>
+        </view>
+      </view>
+
+      <view class="apply">申请加入</view>
     </view>
 
-    <view class="club3">
-      <view class="sx"></view>
-      <view>专属特权</view>
-    </view>
-
-    <image src="../static/image/14.png" class="img1"></image>
-
-    <view class="privilege">
-      <image src="../static/image/15.png" class="img15"></image>
-      <image src="../static/image/16.png" class="img16"></image>
-      <view class="txt">
-        <view>每月会员活动日</view>
-        <view>会员无需排队</view>
-        <view>急速配对无需等待</view>
+    <view wx:else class="box3_1">
+      <image src="../static/image/bg0.png" class="bg0"></image>
+      <image src="../static/image/bg1.png" class="bg11"></image>
+      <view class="price">0.00</view>
+      <view class="price1">余额（元） ＞</view>
+      <view class="cz">
+        <view class="price2">可用余额
+          <text>0.00</text>
+        </view>
+        <view class="price3">充值</view>
       </view>
     </view>
-
-    <view class="apply">申请加入</view>
 
   </view>
 
@@ -150,7 +165,9 @@
     <view class="sbox">
       <view class="sbox_1" wx:for="{{3}}" wx:key="index">
         <view>{{index+4}}.</view>
-        <view class="sbox_1_1"><image src="../static/image/17.png"></image></view>
+        <view class="sbox_1_1">
+          <image src="../static/image/17.png"></image>
+        </view>
         <view>哟儿园</view>
       </view>
     </view>

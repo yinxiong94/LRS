@@ -1,11 +1,12 @@
 {
   "pages": [
+    "pages/he_ homepage/he_ homepage",
+    "pages/club/club",
+    "pages/personal/personal",
     "pages/game1/game",
     "pages/region/region",
     "pages/game/game",
-    "pages/club/club",
     "pages/my_ datum/my_ datum",
-    "pages/he_ homepage/he_ homepage",
     "pages/Topup_page/Topup_page",
     "pages/seek/seek",
     "pages/classify/classify",
