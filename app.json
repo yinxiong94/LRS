@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/game1/game",
     "pages/he_ homepage/he_ homepage",
     "pages/club/club",
     "pages/personal/personal",
-    "pages/game1/game",
     "pages/region/region",
     "pages/game/game",
     "pages/my_ datum/my_ datum",
