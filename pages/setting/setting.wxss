@@ -25,40 +25,44 @@ page {
   height: 39rpx;
 }
 
-.voice{
+.voice {
   margin-top: 20rpx;
 }
 
 /*swtich整体大小及背景色*/
-.wx-switch-input{
-    /* width:77rpx !important;
-    height:36rpx !important; */
-    background: rgba(254, 213, 23, 1) !important;
-    border: rgba(254, 213, 23, 1) !important;
-    /* box-sizing: border-box !important; */
+
+.wx-switch-input {
+  width: 90rpx !important;
+  height: 50rpx !important;
+  background: rgba(254, 213, 23, 1) !important;
+  border: rgba(254, 213, 23, 1) !important;
+  /* box-sizing: border-box !important; */
 }
+
 /*白色样式（false的样式）*/
-/* .wx-switch-input::before{
-    width:80rpx !important;
-    height: 36rpx !important;
-    border:1px #50d2c2 !important; 
-} */
+
+.wx-switch-input::before {
+  width: 90rpx !important;
+  height: 50rpx !important;
+  border: 1px #50d2c2 !important;
+}
+
 /*绿色样式（true的样式）*/
-/* .wx-switch-input::after{
-    width: 40rpx !important;
-    height: 36rpx !important;
-    border:1px #50d2c2 !important; 
-} */
 
+.wx-switch-input::after {
+  width:50rpx !important;
+  height: 50rpx !important;
+  border: 1px #50d2c2 !important;
+}
 
-.exit{
+.exit {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100rpx;
   background-color: #fff;
-  font-size:32rpx;
-font-family:PingFang SC;
-font-weight:500;
-color:rgba(222,83,83,1);
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(222, 83, 83, 1);
 }

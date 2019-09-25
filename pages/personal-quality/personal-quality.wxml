@@ -1,0 +1,38 @@
+<view class="shadow"></view>
+
+<view class="nav">
+    <view>遵守身份底牌</view>
+    <view>遵守角色规则</view>
+    <view>遵守发言规范</view>
+    <view>遵守玩家素质</view>
+</view>
+
+<view class="vote" wx:for="{{6}}" wx:key>
+    <view class="txbox">
+        <image src="../static/image/touxian.jpg" class="tx"></image>
+        <view class="name">阿里巴巴</view>
+        <view class="hm">{{index+1}}</view>
+    </view>
+    <view class="dzbox">
+        <image src="../static/image/good.png"></image>
+        <image src="../static/image/bady.png"></image>
+    </view>
+    <view class="dzbox">
+        <image src="../static/image/good.png"></image>
+        <image src="../static/image/bady.png"></image>
+    </view>
+    <view class="dzbox">
+        <image src="../static/image/good.png"></image>
+        <image src="../static/image/bady.png"></image>
+    </view>
+    <view class="dzbox">
+        <image src="../static/image/good.png"></image>
+        <image src="../static/image/bady.png"></image>
+    </view>
+</view>
+
+<view class="bom-nav">
+  <button class="btn">一键好评</button>
+  <button class="btn">一键差评</button>
+  <button class="btn1">提交评价</button>
+</view>

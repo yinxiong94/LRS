@@ -1,27 +1,18 @@
-// pages/game1/game.js
-var that;
+// pages/personal-quality/personal-quality.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    isshow1:false,
-    isshow2:1
+
   },
-  // 分享
-  isshow1:function(){
-    that.setData({isshow1:true})
-  },
-// 取消分享
-  del:function(){
-    that.setData({isshow1:false})
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    that=this;
+
   },
 
   /**

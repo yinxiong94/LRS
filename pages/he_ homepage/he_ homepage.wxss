@@ -3,6 +3,19 @@
   height: 312rpx;
 }
 
+.img1{
+  width: 100%;
+  height: 580rpx
+}
+
+.box{
+  height: 210rpx;
+  width: 100%;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+  padding-right: 30rpx
+}
+
 .head_portrait {
   width: 80%;
   height: 50%;
@@ -10,6 +23,10 @@
   align-items: center;
   justify-content: space-around;
   margin: 0 auto;
+}
+
+.grade_title{
+  margin-top: 20rpx
 }
 
 .head_portrait {
@@ -34,15 +51,18 @@
   margin-right: 10rpx;
 }
 
-.head_grade {
+/* .head_grade {
   height: 50%;
-}
+} */
 
 .head_grade {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
+}
+
+.ttt{
+  margin-top: 20rpx
 }
 
 .name_text {
@@ -87,6 +107,27 @@
   font-weight: 500;
   color: rgba(51, 51, 51, 1);
   margin-left: 10rpx;
+}
+
+.grade_name{
+  margin-top: 20rpx
+}
+
+.grade_name image{
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: bottom;
+  margin-left: 10rpx;
+  margin-right: 10rpx
+}
+
+.bbb{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ccc{
+  margin-top: 20rpx
 }
 
 .line {
@@ -280,6 +321,32 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.list_content1 {
+  height: 250rpx;
+  padding: 0rpx 30rpx;
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30rpx;
+  box-sizing: border-box
+}
+
+.list_content1 image{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+  margin-right: 20rpx
+}
+
+.kkk{
+  overflow: hidden
+}
+
+.ddd{
+  line-height: 210rpx
 }
 
 .list_content view:nth-child(1) {

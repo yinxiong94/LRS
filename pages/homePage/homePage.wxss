@@ -135,12 +135,12 @@
   align-items: center;
 }
 
-.recommend_weight{
-  font-size:36rpx;
-  font-weight:bold;
+.recommend_weight {
+  font-size: 36rpx;
+  font-weight: bold;
 }
 
-.recommend_left{
+.recommend_left {
   margin-right: 30px;
 }
 
@@ -286,10 +286,12 @@
   display: flex;
   align-items: center;
 }
-.location11{
+
+.location11 {
   display: flex;
   justify-content: space-between;
 }
+
 .location11_but {
   width: 140rpx;
   height: 36rpx;
@@ -307,25 +309,43 @@
   height: 20rpx;
 }
 
-.location22{
-  font-size:22rpx;
-font-family:PingFang SC;
-font-weight:500;
-color:rgba(130,130,130,1);
-display: flex;
-align-items: center;
+.location22 {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(130, 130, 130, 1);
+  display: flex;
+  align-items: center;
 }
 
-.location22 image{
+.location22 image {
   width: 23rpx;
   height: 28rpx;
   margin-right: 10rpx;
 }
 
-.location22>text{
+.location22>text {
   display: inline-block;
   width: 250rpx;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.zzc {
+  width: 267rpx;
+  height: 469rpx;
+  background: rgba(46, 46, 46, 1);
+  border-radius: 10rpx;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 97rpx;
+  right: 20rpx;
+  z-index: 1000
+}
+
+.zzc view{
+  margin-top: 24rpx;
+  font-size: 30rpx
 }
