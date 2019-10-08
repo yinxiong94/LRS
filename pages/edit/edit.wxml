@@ -1,0 +1,40 @@
+<view class="shadow"></view>
+
+<view class="t1">编辑资料</view>
+
+<view class="box1">
+  <view class="sbox">
+    <image src="../static/image/touxian.jpg"></image>
+    <view class="t2">修改头像</view>
+  </view>
+  <view class="t3">＞</view>
+</view>
+
+<view class="box1">
+  <view class="t4">修改头像</view>
+  <view class="sbox">
+    <view class="t2">湖南浣熊</view>
+    <view class="t3">＞</view>
+  </view>
+</view>
+
+<view class="box1">
+  <view class="t4">修改密码</view>
+  <view class="sbox">
+    <view class="t3">＞</view>
+  </view>
+</view>
+
+<view class="box1">
+  <view class="t4">更换绑定手机</view>
+  <view class="sbox">
+    <view class="t3">＞</view>
+  </view>
+</view>
+
+<view class="box1 m20">
+  <view class="t4">我的地址</view>
+  <view class="sbox">
+    <view class="t3">＞</view>
+  </view>
+</view>

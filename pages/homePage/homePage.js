@@ -16,22 +16,29 @@ Page({
     autoplay:true,
     interval:2000,
     scrollX:true,
-    cuur:0
+    cuur:0,
+    isshow:false
   },
 
 
 
-  locationdj(e){
-    that = this
+  locationdj(e){  
     that.setData({
       cuur: e.currentTarget.dataset.cuur
     })
+  },
+  isshow:function(){
+    if(that.data.isshow==false){
+      that.setData({ isshow:true})
+    } else {
+      that.setData({ isshow:false})
+    }
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-   
+    that = this
   },
 
   /**

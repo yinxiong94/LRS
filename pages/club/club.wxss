@@ -612,28 +612,92 @@ swiper image {
   background: rgba(255, 255, 255, 1);
   border-radius: 10rpx;
   margin: auto;
-  margin-top: -8rpx
+  margin-top: -8rpx;
 }
 
-.sbox_1{
+.sbox_1 {
   display: flex;
   line-height: 100rpx;
   width: 618rpx;
   margin: auto;
-  border-bottom: 1rpx solid #E5E5E5;
-  padding: 30rpx 0
+  border-bottom: 1rpx solid #e5e5e5;
+  padding: 30rpx 0;
 }
 
-.sbox_1_1{
+.sbox_1_1 {
   width: 96rpx;
   height: 96rpx;
-  border:2rpx solid #6a78d4;
+  border: 2rpx solid #6a78d4;
   border-radius: 50%;
   margin-left: 50rpx;
-  margin-right: 50rpx
+  margin-right: 50rpx;
 }
 
-.sbox_1_1 image{
+.sbox_1_1 image {
   width: 96rpx;
-  height: 96rpx
+  height: 96rpx;
+}
+
+.box3_1 {
+  position: relative;
+}
+
+.bg0 {
+  position: absolute;
+  width: 650rpx;
+  height: 342rpx;
+  left: 50rpx;
+  top: 100rpx;
+}
+
+.bg11 {
+  position: absolute;
+  width: 35rpx;
+  height: 20rpx;
+  right: 80rpx;
+  top: 140rpx;
+}
+
+.price {
+  font-size: 94rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  left: 282rpx;
+  top: 200rpx;
+}
+
+.price1 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.58;
+  position: absolute;
+  top: 337rpx;
+  left: 298rpx;
+}
+
+.cz{
+  display: flex;
+  padding: 0 45rpx;
+  justify-content: space-between;
+  position: absolute;
+  top:520rpx;
+  width: 100%;
+  box-sizing: border-box
+}
+
+.price2{
+  font-size: 30rpx;
+  color:#999999;
+}
+
+.price2 text{
+  color:#363636
+}
+
+.price3{
+  color:#F52F3E
 }

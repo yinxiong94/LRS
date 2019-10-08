@@ -1,0 +1,319 @@
+<view class="shadow"></view>
+
+<view class="nav">
+  <view class="tx">填写信息</view>
+  <view class="nav-box">
+    <image src="../static/image/78.png"></image>
+    <view>长沙</view>
+  </view>
+</view>
+
+<view class="state">请编辑约局的基本信息 包括日期地点时间</view>
+
+<view class="box">
+  <view class="mbox">
+    <image src="../static/image/59.png" class="img9"></image>
+    <view>开局时间</view>
+  </view>
+  <view class="mbox">
+    <picker class='time-picker' mode="multiSelector" bindchange="bindStartMultiPickerChange" bindtap='pickerTap' bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">{{startDate}}
+    </picker>
+    <image src="../static/image/xl.png" class="xl"></image>
+  </view>
+</view>
+
+<view class="box">
+  <view class="mbox">
+    <image src="../static/image/60.png" class="img9"></image>
+    <view>约局类型</view>
+  </view>
+  <view class="mbox">
+    <view>请选择</view>
+    <image src="../static/image/xl.png" class="xl"></image>
+  </view>
+</view>
+
+<view class="zzc" wx:if="{{isshow==0}}">
+  <view class="bgbox">
+    <view class="nav-zzc">
+      <image src="../static/image/des.png" bindtap="help"></image>
+      <view>组局筛选</view>
+      <image src="../static/image/del1.png" class="del1" bindtap="del"></image>
+    </view>
+    <view wx:if="{{help}}">
+        <image src="../static/image/42.png" class="img42"></image>
+        <view class="sm">6人场（预言家、守卫+2狼）明牌</view>
+    </view>
+    <view class="hx-zzc"></view>
+    <view>
+      <view class="box-zzc">
+        <view class="t1-zzc">新手入门场</view>
+        <view class="t2-zzc">6~10分钟/局</view>
+      </view>
+      <view class="box1-zzc">
+        <view wx:for="{{5}}" wx:key class="check">6人猎人场</view>
+      </view>
+    </view>
+    <view>
+      <view class="box-zzc">
+        <view class="t1-zzc">积分匹配场</view>
+        <view class="t2-zzc">6~10分钟/局</view>
+      </view>
+      <view class="box1-zzc">
+        <view wx:for="{{5}}" wx:key>6人猎人场</view>
+      </view>
+    </view>
+    <view>
+      <view class="box-zzc">
+        <view class="t1-zzc">积分排位场</view>
+        <view class="t2-zzc">6~10分钟/局</view>
+      </view>
+      <view class="box1-zzc">
+        <view wx:for="{{2}}" wx:key>6人猎人场</view>
+      </view>
+    </view>
+
+    <button class="btn-zzc">确定</button>
+  </view>
+</view>
+
+<view class="zzc" wx:if="{{isshow==1}}">
+  <view class="bgbox">
+    <view class="nav-zzc">
+      <image></image>
+      <view>约局类型</view>
+      <image src="../static/image/del1.png" class="del1"></image>
+    </view>
+    <view class="hx-zzc"></view>
+    <view>
+      <view class="box-zzc">
+        <view class="t1-zzc">约局类型</view>
+      </view>
+      <view class="box2-zzc">
+        <view wx:for="{{2}}" wx:key class="check">新手练习场</view>
+      </view>
+    </view>
+
+    <button class="btn-zzc">确定</button>
+  </view>
+</view>
+
+<view class="zzc" wx:if="{{isshow==2}}">
+  <view class="bgbox">
+    <view class="nav-zzc">
+      <image></image>
+      <view>玩家类型</view>
+      <image src="../static/image/del1.png" class="del1"></image>
+    </view>
+    <view class="hx-zzc"></view>
+    <view>
+      <view class="box-zzc">
+        <view class="t1-zzc">初级场</view>
+      </view>
+      <view class="box2-zzc">
+        <view wx:for="{{5}}" wx:key class="check">萌新</view>
+      </view>
+    </view>
+    <view>
+      <view class="box-zzc">
+        <view class="t1-zzc">中级场</view>
+      </view>
+      <view class="box2-zzc">
+        <view wx:for="{{5}}" wx:key>萌新</view>
+      </view>
+    </view>
+    <view>
+      <view class="box-zzc">
+        <view class="t1-zzc">高级场</view>
+      </view>
+      <view class="box2-zzc">
+        <view wx:for="{{2}}" wx:key>萌新</view>
+      </view>
+    </view>
+
+    <button class="btn-zzc">确定</button>
+  </view>
+</view>
+
+<view class="zzc" wx:if="{{isshow==3}}">
+  <view class="bgbox">
+    <view class="nav-zzc">
+      <image></image>
+      <view>查看多少人的局</view>
+      <image src="../static/image/del1.png" class="del1"></image>
+    </view>
+    <view class="hx-zzc"></view>
+    <view>
+      <view class="box-zzc">
+        <view class="t1-zzc">娱乐练习场</view>
+      </view>
+      <view class="box2-zzc">
+        <view wx:for="{{5}}" wx:key class="check">萌新</view>
+      </view>
+    </view>
+    <view>
+      <view class="box-zzc">
+        <view class="t1-zzc">自由匹配场</view>
+      </view>
+      <view class="box2-zzc">
+        <view wx:for="{{5}}" wx:key>萌新</view>
+      </view>
+    </view>
+    <view>
+      <view class="box-zzc">
+        <view class="t1-zzc">积分排位场</view>
+      </view>
+      <view class="box2-zzc">
+        <view wx:for="{{2}}" wx:key>萌新</view>
+      </view>
+    </view>
+
+    <button class="btn-zzc">确定</button>
+  </view>
+</view>
+
+<view class="zzc" wx:if="{{isshow==4}}">
+  <view class="bgbox">
+    <view class="nav-zzc">
+      <image></image>
+      <view>比赛类型</view>
+      <image src="../static/image/del1.png" class="del1"></image>
+    </view>
+    <view class="hx-zzc"></view>
+    <view>
+      <view class="box-zzc">
+        <view class="t1-zzc">比赛类型</view>
+      </view>
+      <view class="box2-zzc">
+        <view wx:for="{{5}}" wx:key class="check">萌新</view>
+      </view>
+    </view>
+    <view>
+      <view class="box-zzc">
+        <view class="t1-zzc">俱乐部类型</view>
+      </view>
+      <view class="box2-zzc">
+        <view wx:for="{{5}}" wx:key>萌新</view>
+      </view>
+    </view>
+
+    <button class="btn-zzc">确定</button>
+  </view>
+</view>
+
+<view class="zzc" wx:if="{{isshow==5}}">
+  <view class="bgbox">
+    <view class="nav-zzc">
+      <image></image>
+      <view>环境</view>
+      <image src="../static/image/del1.png" class="del1"></image>
+    </view>
+    <view class="hx-zzc"></view>
+    <view>
+      <view class="box-zzc">
+        <view class="t1-zzc">是否吸烟</view>
+      </view>
+      <view class="box2-zzc">
+        <view wx:for="{{2}}" wx:key class="check">萌新</view>
+      </view>
+    </view>
+    <view>
+      <view class="box-zzc">
+        <view class="t1-zzc">空调WiFi</view>
+      </view>
+      <view class="box2-zzc">
+        <view wx:for="{{2}}" wx:key>萌新</view>
+      </view>
+    </view>
+    <view>
+      <view class="box-zzc">
+        <view class="t1-zzc">饮品</view>
+      </view>
+      <view class="box2-zzc">
+        <view wx:for="{{2}}" wx:key>萌新</view>
+      </view>
+    </view>
+
+    <button class="btn-zzc">确定</button>
+  </view>
+</view>
+
+<view class="box">
+  <view class="mbox">
+    <image src="../static/image/61.png" class="img9"></image>
+    <view>比赛类型</view>
+  </view>
+  <view class="mbox">
+    <view>请选择</view>
+    <image src="../static/image/xl.png" class="xl"></image>
+  </view>
+</view>
+
+<view class="box">
+  <view class="mbox">
+    <image src="../static/image/62.png" class="img9"></image>
+    <view>组局筛选</view>
+  </view>
+  <view class="mbox">
+    <view>请选择</view>
+    <image src="../static/image/xl.png" class="xl"></image>
+  </view>
+</view>
+
+<view class="box">
+  <view class="mbox">
+    <image src="../static/image/63.png" class="img9"></image>
+    <view>玩家类型</view>
+  </view>
+  <view class="mbox">
+    <view>请选择</view>
+    <image src="../static/image/xl.png" class="xl"></image>
+  </view>
+</view>
+
+<view class="box">
+  <view class="mbox">
+    <image src="../static/image/64.png" class="img9"></image>
+    <view>收费/位</view>
+  </view>
+  <view class="mbox">
+    <view>请选择</view>
+    <image src="../static/image/xl.png" class="xl"></image>
+  </view>
+</view>
+
+<view class="box">
+  <view class="mbox">
+    <image src="../static/image/65.png" class="img9"></image>
+    <view>环境</view>
+  </view>
+  <view class="mbox">
+    <view>请选择</view>
+    <image src="../static/image/xl.png" class="xl"></image>
+  </view>
+</view>
+
+<view class="box">
+  <view class="mbox">
+    <image src="../static/image/66.png" class="img9"></image>
+    <view>查看多少人的局</view>
+  </view>
+  <view class="mbox">
+    <view>请选择</view>
+    <image src="../static/image/xl.png" class="xl"></image>
+  </view>
+</view>
+
+<view class="box">
+  <view class="mbox">
+    <image src="../static/image/67.png" class="img9"></image>
+    <view>约局地址</view>
+  </view>
+  <view class="mbox">
+    <view>请选择</view>
+    <image src="../static/image/xl.png" class="xl"></image>
+  </view>
+</view>
+
+<button class="btn">确认创建</button>
+<button class="btn1">设置密码</button>

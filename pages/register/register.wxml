@@ -1,0 +1,19 @@
+<view class="shadow"></view>
+
+<image src="../static/image/login.png" class="img1"></image>
+<view class="box">
+  <view class="t1">欢迎注册账号</view>
+  <view class="t2">赶快注册一个法官账号吧</view>
+  <view class="posd">用户名</view>
+  <input placeholder="请输入您的账号" typr="text"></input>
+  <view class="posd">密码</view>
+  <input placeholder="请输入密码" typr="text" password="true"></input>
+  <view class="posd">确认密码</view>
+  <input placeholder="再次输入密码" typr="text" password="true"></input>
+  <view class="phone">手机号</view>
+  <input placeholder="请输入手机号" type="number" bindinput='Input_iphone' maxlength='11'></input>
+  <view class="posd">验证码</view>
+  <input placeholder="请输入手机验证码" typr="text" password="true"></input>
+  <button class="yzm" bindtap='textCode'>{{code}}</button>
+  <button class="login">注册</button>
+</view>

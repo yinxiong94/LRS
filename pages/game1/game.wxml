@@ -33,32 +33,111 @@
       </view>
     </view>
 
-    <view class="middle">
-        <view class="middle_title">
-           <text>【小小小浣熊】</text>
-           <text>进入,座位</text>
-           <text>【1号(你)】</text>
-        </view>
+    <!-- <view class="middle">
+      <view class="middle_title">
+        <text class="name3">【小小小浣熊】</text>
+        <text>进入,座位</text>
+        <text class="name4">【1号】</text>
+      </view>
 
-        <view class="middle_title1">
-            <text>【12人标准场】暗拍+屠边·有警长 </text>
-            <text>【12人标准场】暗拍+屠边·有警长 </text>
-            <text>【12人标准场】暗拍+屠边·有警长 </text>
+      <view class="middle_title1">
+        <text>【12人标准场】暗拍+屠边·有警长 </text>
+        <text>【配置】4狼4民+预女猎守</text>
+        <text>【女巫】全程不可自救</text>
+        <text>【平票】PK1轮发言</text>
+        <text>【发言】时间为90秒</text>
+        <text>【警长】发言30秒，双爆吞警徽</text>
+        <text>【称号】可获得全部称号</text>
+        <text>【主题】默认主题</text>
+        <text>【抢身份】允许抢身份</text>
+      </view>
+    </view> -->
+
+    <view class="zzc">
+      <image src="http://pxadmin.hncoon.com/backimg.png" class="pj" lazy-load="true"></image>
+      <view wx:if="{{isshow2==0}}">
+        <view class="rpj">狼队评价</view>
+        <view class="name8">
+          <view class="txt">
+            <image src="../static/image/touxian.jpg"></image>
+            <view>我是预言家</view>
+          </view>
+          <view>
+            <image src="../static/image/touxian.jpg" class="img888"></image>
+            <view>我是预言家</view>
+          </view>
+          <view>
+            <image src="../static/image/touxian.jpg"></image>
+            <view>我是预言家</view>
+          </view>
         </view>
+        <view class="nlpj">
+          <view class="nlpj1">
+            <view class="txtx">逻辑输出力</view>
+            <view>强</view>
+            <view>一般</view>
+            <view>弱</view>
+          </view>
+          <view class="nlpj1">
+            <view class="txtx">逻辑输出力</view>
+            <view>强</view>
+            <view>一般</view>
+            <view>弱</view>
+          </view>
+          <view class="nlpj1">
+            <view class="txtx">逻辑输出力</view>
+            <view>强</view>
+            <view>一般</view>
+            <view>弱</view>
+          </view>
+          <view class="nlpj1">
+            <view class="txtx">逻辑输出力</view>
+            <view>强</view>
+            <view>一般</view>
+            <view>弱</view>
+          </view>
+        </view>
+        <image src="../static/image/36.png" class="img36"></image>
+        <view class="ok">完成</view>
+      </view>
+
+      <view class="jlb" wx:if="{{isshow2==1}}">
+        <image src="../static/image/touxian.jpg"></image>
+        <view class="t1">浣熊俱乐部</view>
+        <view class="t2">给个评价吧！</view>
+        <view class="t3">喜欢浣熊俱乐部吗？来表达一下你的想法!</view>
+        <button class="btn">去评价</button>
+      </view>
+
+
+    </view>
+
+    <view class="fxbox" wx:if="{{isshow1}}">
+      <view class="fx">
+        <view>
+          <image src="../static/image/34.png"></image>
+          <view>分享至微信好友</view>
+        </view>
+        <view>
+          <image src="../static/image/35.png"></image>
+          <view>分享至广场</view>
+        </view>
+      </view>
+      <view class="del" bindtap="del">取消</view>
     </view>
 
     <view class="title_but">
-        <view class="share">
-            <image src="../static/image/share.png"></image>
-        </view>
+      <view class="share">
+        <image src="../static/image/share.png" bindtap="isshow1"></image>
+      </view>
 
-        <view class="prepare">
-            <image src="../static/image/prepare.png"></image>
-        </view>
+      <view class="prepare">
+        <image src="../static/image/prepare.png"></image>
+      </view>
 
-        <view class="dialogue">
-            <image src="../static/image/dialogue.png"></image>
-        </view>
+      <view class="dialogue">
+        <image src="../static/image/dialogue.png"></image>
+      </view>
     </view>
 
     

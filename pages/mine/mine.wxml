@@ -60,13 +60,13 @@
       <image src="../static/image/leif.png"></image>
     </view>
 
-     <view class="cont_list">
+     <!-- <view class="cont_list">
       <view class="cont_list_img1 cont_list_img_r cont_list_img">
           <image src="../static/image/zuowei.png" class="cont_list_img_r"></image>
           <text>座位卡</text>
       </view>
       <image src="../static/image/leif.png"></image>
-    </view>
+    </view> -->
 
     <view class="cont_list top" >
       <view class="cont_list_img2 cont_list_img_r cont_list_img">

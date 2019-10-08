@@ -7,7 +7,8 @@ Page({
    */
   data: {
     tab:0,
-    tab1:0
+    tab1:0,
+    isvip:1
   },
   // 切换tab栏
   tab:function(e){

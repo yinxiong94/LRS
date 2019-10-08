@@ -59,7 +59,7 @@
   border-radius: 26rpx;
   margin: 0 auto;
   margin-top: 10rpx;
-  padding: 20rpx 10rpx;
+  padding: 20rpx 0rpx;
   display: flex;
 }
 .game1_list{
@@ -82,8 +82,8 @@
   display: flex;
 }
 .game_Img {
-  width: 200rpx;
-  height: 100%;
+  width: 170rpx;
+  height: 150rpx;
   margin-right: 10rpx;
 }
 

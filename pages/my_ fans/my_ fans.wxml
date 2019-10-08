@@ -1,4 +1,4 @@
-<view class="container">
+  <view class="container">
     <!-- input -->
     <view class="search">
         <view class="icon_glass"></view>

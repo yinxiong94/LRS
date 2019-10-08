@@ -1,0 +1,26 @@
+<view class="shadow"></view>
+
+<view class="name">
+    <image src="../static/image/touxiang.png"></image>
+    <view>浣熊俱乐部</view>
+</view>
+
+<view class="club">
+    <view class="club-name">俱乐部评价</view>
+    <view class="estimate">
+        <view class="estimate-1">
+            <image src="../static/image/37.png"></image>
+            <view>不满意</view>
+        </view>
+        <view class="estimate-1">
+            <image src="../static/image/38.png"></image>
+            <view>不满意</view>
+        </view>
+        <view class="estimate-1">
+            <image src="../static/image/39.png"></image>
+            <view>不满意</view>
+        </view>
+    </view>
+</view>
+
+<button class="btn">立即评价</button>

@@ -3,29 +3,31 @@
   <view class="my_club">
     <view class="club_title">我的俱乐部</view>
     <!-- 没有加入俱乐部显示 -->
-    <!-- <view class="club_img">
-      <image src="../static/image/club.png"></image>
-      <view class="club_text">
-        <text>您还没有加入的俱乐部</text>
-        <text>赶紧去加入吧</text>
+    <view wx:if="{{ishow==0}}">
+      <view class="club_img" >
+        <image src="../static/image/club.png"></image>
+        <view class="club_text">
+          <text>您还没有加入的俱乐部</text>
+          <text>赶紧去加入吧</text>
+        </view>
+      </view>
+      <view class="club_but">去加入</view>
+    </view>
+    <!-- 加入俱乐部显示 -->
+    <view class="recommend_club_list" wx:if="{{ishow==1}}">
+      <image src="../static/image/touxian.jpg"></image>
+      <view class="recommend_club1">
+        <view class="recommend_club_list_content">
+          <view class="list_name">文艺青年俱乐部</view>
+          <view class="list_name_but">加入</view>
+        </view>
+        <view class="recommend_data">
+          <text class="member">成员：160</text>
+          <text class="liveness">活跃度：330</text>
+        </view>
+        <view class="notice">公告：年轻人交友的俱乐部</view>
       </view>
     </view>
-    <view class="club_but">去加入</view> -->
-    <!-- 加入俱乐部显示 -->
-    <view class="recommend_club_list">
-          <image src="../static/image/touxian.jpg"></image>
-          <view class="recommend_club1">
-            <view class="recommend_club_list_content">
-                <view class="list_name">文艺青年俱乐部</view>
-                <view class="list_name_but">加入</view>
-            </view>
-            <view class="recommend_data">
-                <text class="member">成员：160</text>
-                <text class="liveness">活跃度：330</text>
-            </view>
-            <view class="notice">公告：年轻人交友的俱乐部</view>
-          </view>
-      </view>
   </view>
   <!-- nearby_club -->
   <view class="nearby_club">
@@ -34,14 +36,14 @@
       <scroll-view scroll-x="true" class="scrollstyle">
         <!--  display: inline-block-->
         <view class="scrollstyle_text" wx:for="{{6}}" wx:key="index">
-            <view class="scrollstyle_but">加入</view>
-            <image src="../static/image/del.png"></image>
-            <view class="scrollstyle_img">
-                
-                <image src="../static/image/touxian.jpg"></image>
-                <text class="name">湖南浣熊俱乐部</text>
-                <text class="sum">共有210人加入</text>
-            </view>
+          <view class="scrollstyle_but">加入</view>
+          <image src="../static/image/del.png"></image>
+          <view class="scrollstyle_img">
+
+            <image src="../static/image/touxian.jpg"></image>
+            <text class="name">湖南浣熊俱乐部</text>
+            <text class="sum">共有210人加入</text>
+          </view>
         </view>
       </scroll-view>
     </view>
@@ -49,20 +51,20 @@
   </view>
   <!-- recommend_club -->
   <view class="recommend_club">
-      <view class="club_title">推荐俱乐部</view>
-      <view class="recommend_club_list" wx:for="{{6}}" wx:key="index">
-          <image src="../static/image/touxian.jpg"></image>
-          <view class="recommend_club1">
-            <view class="recommend_club_list_content">
-                <view class="list_name">文艺青年俱乐部</view>
-                <view class="list_name_but">加入</view>
-            </view>
-            <view class="recommend_data">
-                <text class="member">成员：160</text>
-                <text class="liveness">活跃度：330</text>
-            </view>
-            <view class="notice">公告：年轻人交友的俱乐部</view>
-          </view>
+    <view class="club_title">推荐俱乐部</view>
+    <view class="recommend_club_list" wx:for="{{6}}" wx:key="index">
+      <image src="../static/image/touxian.jpg"></image>
+      <view class="recommend_club1">
+        <view class="recommend_club_list_content">
+          <view class="list_name">文艺青年俱乐部</view>
+          <view class="list_name_but">加入</view>
+        </view>
+        <view class="recommend_data">
+          <text class="member">成员：160</text>
+          <text class="liveness">活跃度：330</text>
+        </view>
+        <view class="notice">公告：年轻人交友的俱乐部</view>
       </view>
+    </view>
   </view>
 </view>

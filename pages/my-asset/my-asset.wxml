@@ -1,0 +1,32 @@
+<view class="shadow"></view>
+
+<view class="box">
+  <view>
+    <view class="sbox">
+      <image src="../static/image/40.png" class="img40"></image>
+      <view class="ssbox">购买</view>
+    </view>
+    <view class="kk">房卡</view>
+  </view>
+  <view>
+    <view class="sbox">
+      <image src="../static/image/41.png" class="img41"></image>
+      <view class="ssbox">充值</view>
+    </view>
+    <view class="kk">时间点卡</view>
+  </view>
+</view>
+
+<view class="zzc">
+    <view class="mbox">
+        <view class="mmbox">
+          <image src="../static/image/40.png" class="img40"></image>
+        </view>
+        <view class="tbox">
+            <view class="t1">房卡</view>
+            <view class="t2">￥16.00</view>
+        </view>
+        <view class="tt">用户购买房卡即可自创房间</view>
+        <button class="btn">立即购买</button>
+    </view>
+</view>

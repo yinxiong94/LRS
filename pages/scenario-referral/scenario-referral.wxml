@@ -1,0 +1,49 @@
+<image src="../static/image/99.png" class="img1"></image>
+<view class="box">
+  <image src="../static/image/97.png" class="img2"></image>
+  <view class="box1" style="width:80%">
+    <image src="../static/image/98.png" class="img2"></image>
+  </view>
+</view>
+<view class="pf">8.7</view>
+
+<view class="bigbox">
+  <view class="flex">
+    <view class="name">记忆的碎片</view>
+    <view class="count">6人剧本</view>
+  </view>
+
+  <view class="referral">中等本 · 都市 · 校园 · 情感</view>
+
+  <view class="xian"></view>
+
+  <view class="des">剧本简介：星楠高中的学园祭上，玩偶表演秀竟成为花季少女最后的舞台。星星之火可以燎原，何用堂前更种花。我有一个秘密，悄悄告诉你。如人饮水，冷暖自知。所有的姻缘只为了下一次的际会，好女孩上天堂，坏女孩走四方。天涯海角，都逃不过宿命的纠缠。谁是那个以命运之手扼其咽喉的人呢？
+    <text>...收起</text>
+  </view>
+
+  <view class="mbox" wx:for="{{3}}" wx:key>
+    <view class="sbox">
+      <image src="../static/image/touxian.jpg"></image>
+      <view>巧克力</view>
+    </view>
+    <view class="sbox-1">女，人物介绍人物介绍人物介绍，人物介绍人物介绍人物介绍，人物介绍。</view>
+  </view>
+
+  <button class="btn">进入房间</button>
+
+  <view class="kong"></view>
+
+  <view class="pl">精彩评论</view>
+
+  <view class="pl-box" wx:for="{{2}}" wx:key>
+    <image src="../static/image/touxian.jpg"></image>
+    <view>
+      <view class="t1">Berry</view>
+      <view class="t2">10分钟前</view>
+      <view class="t3">精彩的狼人杀推理秀，等你来！</view>
+    </view>
+  </view>
+
+  <button class="btn1">查看更多评论</button>
+
+</view>
