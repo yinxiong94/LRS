@@ -1,4 +1,5 @@
 {
   "usingComponents": {},
+  "navigationBarBackgroundColor": "#FFD101",
   "navigationBarTitleText": "战绩"
 }

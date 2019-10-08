@@ -1,10 +1,10 @@
 {
   "pages": [
+    "pages/combat/combat",
+    "pages/About_agency/About_agency",
     "pages/mine/mine",
     "pages/my_ About/my_ About",
     "pages/my_ datum/my_ datum",
-    "pages/combat/combat",
-    "pages/About_agency/About_agency",
     "pages/my_club/my_club",
     "pages/setting/setting",
     "pages/my_ friend/my_ friend",

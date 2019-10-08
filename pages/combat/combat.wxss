@@ -1,15 +1,15 @@
 page {
-  background: linear-gradient(0deg, rgba(84, 47, 163, 1) 0%, rgba(55, 31, 115, 1) 100%); 
+  /* background: linear-gradient(0deg, rgba(84, 47, 163, 1) 0%, rgba(55, 31, 115, 1) 100%);  */
 }
 
 .container {
-  padding: 30rpx;
+  /* padding: 30rpx; */
 }
 
+/* 胜利 */
 .combat {
-  width:  100%;
+  width: 100%;
   height: 150rpx;
-  background: rgba(75, 50, 191, 1);
   border-radius: 10rpx;
   margin-bottom: 30rpx;
   padding: 20rpx 0 20rpx 0;
@@ -17,18 +17,25 @@ page {
 }
 
 /* 失败的颜色的背景 */
-.combat1{
-  background: linear-gradient(0deg, rgba(104, 43, 236, 1) 0%, rgba(129, 88, 246, 1) 100%);
+
+.combat1 {
+  background: #FFF0C2;
 }
+
+/* 胜利的颜色背景 */
+.combat2{
+  background: #FFE5CF;
+}
+ 
 /* 成功字体颜色 */
-.victory1{
-  color: rgba(254, 213, 23, 1);
-   font-size: 42rpx;
+
+.victory1 {
+  color: #FFA42E;
+  font-size: 42rpx;
   font-family: PingFang SC;
   font-weight: bold;
   line-height: 50rpx;
 }
-
 
 .combat_img {
   width: 300rpx;
@@ -38,7 +45,7 @@ page {
   justify-content: space-around;
 }
 
-.combat_img_text{
+.combat_img_text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -54,19 +61,21 @@ page {
   border-radius: 10rpx;
 }
 
+/* 失败 */
 .victory {
   font-size: 42rpx;
   font-family: PingFang SC;
   font-weight: bold;
-  color: rgba(153, 153, 153, 1);
+  color: #8A4100;
   line-height: 50rpx;
 }
 
+/* 胜利 */
 .victory1 {
   font-size: 42rpx;
   font-family: PingFang SC;
   font-weight: bold;
-  color:#FED517;
+  color: #fed517;
   line-height: 50rpx;
 }
 
@@ -78,6 +87,10 @@ page {
   line-height: 50rpx;
 }
 
+.identity1{
+  color: #8A4100 !important;
+}
+
 .grade {
   font-size: 24rpx;
   font-family: PingFang SC;
@@ -86,13 +99,13 @@ page {
   line-height: 34rpx;
 }
 
-.combat_icon{
+.combat_icon {
   height: 100%;
   width: 1px;
   background: #fff;
 }
 
-.combat_details{
+.combat_details {
   width: 360rpx;
   height: 100%;
   display: flex;
@@ -101,18 +114,117 @@ page {
   align-items: center;
 }
 
-.combat_details view:nth-child(1){
-  font-size:30rpx;
-font-family:PingFang SC;
-font-weight:bold;
-color:rgba(255,255,255,1);
-line-height:50rpx;
+.combat_details view:nth-child(1) {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  line-height: 50rpx;
 }
 
-.combat_details view:nth-child(2){
-  font-size:20rpx;
-font-family:PingFang SC;
-font-weight:bold;
-color:rgba(255,255,255,1);
-line-height:50rpx;
+.combat_details view:nth-child(2) {
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  line-height: 50rpx;
+}
+
+.cint_top {
+  height: 370rpx;
+  background: linear-gradient(180deg, rgba(255, 209, 1, 1) 0%, rgba(255, 166, 22, 1) 100%);
+  padding: 30rpx;
+}
+
+.head {
+  display: flex;
+}
+
+.name {
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+}
+
+.head>image {
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 50%;
+}
+
+.name view:nth-child(1) {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  line-height: 24rpx;
+}
+
+.name view:nth-child(2)>text {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(138, 65, 0, 1);
+}
+
+.name view:nth-child(2)>text:nth-child(1) {
+  margin-right: 10rpx;
+}
+
+.list {
+  width: 690rpx;
+  height: 200rpx;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10rpx;
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list_data {
+  width: 31%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.list_data view:nth-child(1) {
+  font-size: 42rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(138, 65, 0, 1);
+}
+
+.list_data view:nth-child(2) {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(138, 65, 0, 1);
+}
+
+.icon {
+  width: 2rpx;
+  height: 60rpx;
+  background: rgba(138, 65, 0, 1);
+}
+
+.lis {
+  height: 109rpx;
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
+  line-height: 109rpx;
+}
+
+.duiza {
+  font-size: 34rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+  margin-left: 20rpx;
+}
+
+
+.cont_list{
+  padding: 30rpx;
 }

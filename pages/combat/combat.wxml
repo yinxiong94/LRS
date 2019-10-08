@@ -1,32 +1,67 @@
 <view class="container">
-    <view class="combat" wx:for="{{3}}" wx:key="index">
-        <view class="combat_img">
+    <view class="cint_top">
+        <view class="head">
             <image src="../static/image/touxian.jpg"></image>
-            <view class="combat_img_text">
-                <view class="victory">失败</view>
-                <view class="identity">平民</view>
-                <view class="grade">评分-3.5</view>
+            <view class="name">
+                <view>麦兜啊</view>
+                <view>
+                    <text>点赞数10</text>
+                    <text>MVP数10</text>
+                </view>
             </view>
         </view>
-        <view class="combat_icon"></view>
-        <view class="combat_details">
-          <view>12人标准场（默认主题)</view>
-          <view>对战53分钟（8-6 23：37：37)</view>
+
+        <view class="list">
+            <view class="list_data">
+                <view>163</view>
+                <view>游戏总局数</view>
+            </view>
+            <view class="icon"></view>
+            <view class="list_data">
+                <view>88</view>
+                <view>游戏胜利</view>
+            </view>
+            <view class="icon"></view>
+            <view class="list_data">
+                <view>88</view>
+                <view>游戏失败</view>
+            </view>
         </view>
     </view>
-    <view class="combat" wx:for="{{3}}" wx:key="index">
-        <view class="combat_img">
-            <image src="../static/image/touxian.jpg"></image>
-            <view class="combat_img_text">
-                <view class="victory1">胜利</view>
-                <view class="identity">平民</view>
-                <view class="grade">评分-3.5</view>
+    <view class="lis">
+        <text class="duiza">历史对战</text>
+    </view>
+    <view class="cont_list">
+        <view class="combat combat1" wx:for="{{3}}" wx:key="index">
+            <view class="combat_img">
+                <image src="../static/image/touxian.jpg"></image>
+                <view class="combat_img_text">
+                    <view class="victory">失败</view>
+                    <view class="identity identity1">平民</view>
+                    <view class="grade identity1">评分-3.5</view>
+                </view>
+            </view>
+            <view class="combat_icon"></view>
+            <view class="combat_details">
+              <view class="identity1">12人标准场（默认主题)</view>
+              <view class="identity1">对战53分钟（8-6 23：37：37)</view>
             </view>
         </view>
-        <view class="combat_icon"></view>
-        <view class="combat_details">
-          <view>12人标准场（默认主题)</view>
-          <view>对战53分钟（8-6 23：37：37)</view>
+
+        <view class="combat combat2" wx:for="{{3}}" wx:key="index">
+            <view class="combat_img">
+                <image src="../static/image/touxian.jpg"></image>
+                <view class="combat_img_text">
+                    <view class="victory1">胜利</view>
+                    <view class="identity identity1">平民</view>
+                    <view class="grade identity1">评分-3.5</view>
+                </view>
+            </view>
+            <view class="combat_icon"></view>
+            <view class="combat_details">
+              <view class="identity1">12人标准场（默认主题)</view>
+              <view class="identity1">对战53分钟（8-6 23：37：37)</view>
+            </view>
         </view>
     </view>
 </view>
