@@ -181,7 +181,6 @@
 }
 
 .Review_data, .Review_data1, .Review_data2 {
-  width: 27%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -190,16 +189,19 @@
 .Review_data image {
   width: 40rpx;
   height: 36rpx;
+  margin-right: 10rpx;
 }
 
 .Review_data1 image {
   width: 38rpx;
   height: 38rpx;
+  margin-right: 10rpx
 }
 
 .Review_data2 image {
   width: 38rpx;
   height: 38rpx;
+  margin-right: 10rpx
 }
 
 .comment_content {
@@ -264,14 +266,13 @@
   color: rgba(51, 51, 51, 1);
 }
 
-.fabu{
+.fabu {
   position: fixed;
   bottom: 80rpx;
   left: 40%;
 }
 
-.fabu image{
-    width: 126rpx;
-    height: 126rpx;
-
+.fabu image {
+  width: 126rpx;
+  height: 126rpx;
 }

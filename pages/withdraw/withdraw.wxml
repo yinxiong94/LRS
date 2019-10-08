@@ -1,0 +1,69 @@
+<view class="shadow"></view>
+
+<view class="nav">
+  <view class="t1">当前积分</view>
+  <view class="t2">1690</view>
+</view>
+
+<view class="kong"></view>
+
+<view class="nav">
+  <view class="t3">选择提现金额</view>
+  <view class="t4">全部提现</view>
+</view>
+
+<view class="bigbox">
+  <view class="box" wx:for="{{4}}" wx:key>
+    <view class="t5">20元</view>
+    <view class="t6">抵20000积分</view>
+  </view>
+  <view class="box">
+    <input placeholder="请输入积分" type="number"></input>
+  </view>
+</view>
+
+<view class="txfs">
+  <view class="tx">提现方式</view>
+  <radio-group>
+    <view class="mbox">
+      <view class="sbox">
+        <radio></radio>
+        <image src="../static/image/zfb.png" class="zfb"></image>
+        <view>支付宝</view>
+      </view>
+      <view class="sbox">
+        <radio></radio>
+        <image src="../static/image/yhk.png" class="yhk"></image>
+        <view>银行卡</view>
+      </view>
+    </view>
+  </radio-group>
+  <view class="shuru">
+    <view>姓名</view>
+    <input placeholder="姓名"></input>
+  </view>
+  <view class="shuru">
+    <view>开户行</view>
+    <input placeholder="银行名称"></input>
+  </view>
+  <view class="shuru">
+    <view>卡号</view>
+    <input placeholder="银行卡号"></input>
+  </view>
+  <view class="shuru">
+    <view>手机号</view>
+    <input placeholder="手机号码"></input>
+  </view>
+</view>
+
+<view class="box-shuru">
+    <view class="ssbox">
+        <view class="ss-t1"></view>
+        <view class="ss-t2">1-3个工作日之内提现到账，具体以帐户到账时间为准</view>
+    </view>
+    <view class="ssbox">
+        <view class="ss-t1"></view>
+        <view class="ss-t2">提现状态请查看钱包中的提现记录</view>
+    </view>
+    <button class="btn1">确认提现</button>
+</view>

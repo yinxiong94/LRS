@@ -104,7 +104,7 @@
 .t2 {
   font-size: 32rpx;
   font-family: PingFang SC;
-  font-weight: 500;
+  font-weight: 500;   
   color: rgba(255, 166, 14, 1);
   line-height: 34rpx;
 }

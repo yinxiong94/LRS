@@ -1,0 +1,251 @@
+.nav {
+  display: flex;
+  padding: 0 30rpx;
+  margin-top: 50rpx;
+  justify-content: space-between;
+}
+
+.tx {
+  font-size: 40rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+}
+
+.nav-box {
+  width: 140rpx;
+  height: 60rpx;
+  background: rgba(244, 198, 30, 1);
+  border-radius: 30rpx;
+  display: flex;
+}
+
+.nav-box image {
+  width: 30rpx;
+  height: 35rpx;
+  margin-top: 13rpx;
+  margin-left: 19rpx;
+}
+
+.nav-box view {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+  margin-left: 15rpx;
+  line-height: 60rpx;
+}
+
+.state {
+  width: 280rpx;
+  height: 70rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(153, 153, 153, 1);
+  line-height: 48rpx;
+  margin-left: 30rpx;
+  margin-top: 50rpx;
+  margin-bottom: 80rpx;
+}
+
+.box {
+  display: flex;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-bottom: 50rpx;
+}
+
+.mbox {
+  display: flex;
+}
+
+.img9 {
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 4rpx;
+  margin-right: 20rpx;
+}
+
+.mbox view {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  line-height: 48rpx;
+}
+
+.xl {
+  width: 11rpx;
+  height: 17rpx;
+  margin-top: 16rpx;
+  margin-left: 20rpx;
+}
+
+.btn {
+  width: 600rpx;
+  height: 80rpx;
+  background: rgba(244, 198, 30, 1);
+  border-radius: 10rpx;
+  margin: auto;
+  margin-top: 100rpx;
+}
+
+.btn1 {
+  width: 600rpx;
+  height: 80rpx;
+  background: rgba(244, 198, 30, 1);
+  border-radius: 10rpx;
+  margin: auto;
+  margin-top: 30rpx;
+}
+
+.zzc {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.bgbox {
+  width: 750rpx;
+  height: 950rpx;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10rpx 10rpx 0px 0px;
+  position: absolute;
+  bottom: 0;
+}
+
+.nav-zzc {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  line-height: 36rpx;
+  margin-top: 32rpx;
+}
+
+.nav-zzc image {
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.del1 {
+  width: 32rpx !important;
+  height: 32rpx !important;
+  margin-top: 2rpx;
+}
+
+.hx-zzc {
+  width: 100%;
+  height: 1rpx;
+  background: #eee;
+  margin-top: 30rpx;
+}
+
+.box-zzc {
+  display: flex;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  margin-top: 40rpx;
+}
+
+.t1-zzc {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+}
+
+.t2-zzc {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(153, 153, 153, 1);
+  margin-left: 30rpx;
+  line-height: 48rpx;
+}
+
+.box1-zzc {
+  display: flex;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.box1-zzc view {
+  width: 200rpx;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  margin-right: 30rpx;
+  background: rgba(238, 238, 238, 1);
+  border-radius: 10rpx;
+  margin-top: 30rpx;
+  color: #999;
+}
+
+.check {
+  background: #f4c61e !important;
+  color: #000 !important;
+  font-weight: 500;
+}
+
+.btn-zzc {
+  width: 600rpx;
+  height: 80rpx;
+  background: rgba(244, 198, 30, 1);
+  border-radius: 10rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  position: absolute;
+  bottom: 30rpx;
+  left: 75rpx;
+}
+
+.box2-zzc {
+  display: flex;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.box2-zzc view {
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  margin-right: 30rpx;
+  background: rgba(238, 238, 238, 1);
+  border-radius: 10rpx;
+  margin-top: 30rpx;
+  color: #999;
+  padding: 0 30rpx;
+}
+
+.box2-zzc view:last-child {
+  margin-right: 0;
+}
+
+.img42 {
+  width: 610rpx;
+  height: 126rpx;
+  position: absolute;
+  top: 80rpx;
+  left: 30rpx;
+}
+
+.sm {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 48rpx;
+  position: absolute;
+  top:130rpx;
+  left: 60rpx
+}

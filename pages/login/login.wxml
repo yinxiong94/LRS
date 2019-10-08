@@ -1,0 +1,14 @@
+<view class="shadow"></view>
+
+
+<image src="../static/image/login.png" class="img1"></image>
+<view class="box">
+  <view class="t1">欢迎来到管理系统</view>
+  <view class="t2">赶快登录了解吧</view>
+  <view class="phone">手机号</view>
+  <input placeholder="请输入手机号" type="number"></input>
+  <view class="posd">密码</view>
+  <input placeholder="请输入密码" typr="text" password="true"></input>
+  <view class="posd1" bindtap="forget">忘记密码</view>
+  <button class="login">登录</button>
+</view>
