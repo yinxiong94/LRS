@@ -60,5 +60,7 @@
             <image src="../static/image/dialogue.png"></image>
         </view>
     </view>
+
+    
   </view>
 </nav-title>
