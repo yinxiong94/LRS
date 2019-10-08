@@ -3,9 +3,13 @@
     <view class="cont_top_img">
       <image src="../static/image/touxian.jpg"></image>
       <view class="cont_top_img_text">
-        <view>
+        <view class="gongsi">
           <text class="name">湖南浣熊</text>
           <text class="name_grade">LV.3</text>
+          <view class="compile">
+              <image src="../static/image/bianji.png"></image>
+              <text>编辑</text>
+          </view> 
         </view>
         <view class="man">
           <!-- <image src="../static/image/man.png"></image> -->
@@ -52,6 +56,14 @@
       <image src="../static/image/leif.png"></image>
     </view>
 
+    <view class="cont_list">
+      <view class="cont_list_img">
+          <image src="../static/image/faguang.png" class="cont_list_img_r"></image>
+          <text>法官</text>
+      </view>
+      <image src="../static/image/leif.png"></image>
+    </view>
+
      <view class="cont_list">
       <view class="cont_list_img1 cont_list_img_r">
           <image src="../static/image/qianbao.png" class="cont_list_img_r"></image>
@@ -72,6 +84,14 @@
       <view class="cont_list_img2 cont_list_img_r cont_list_img">
           <image src="../static/image/zhangji.png" class="cont_list_img_r"></image>
           <text>我的战绩</text>
+      </view>
+      <image src="../static/image/leif.png"></image>
+    </view>
+
+    <view class="cont_list" >
+      <view class="cont_list_img2 cont_list_img_r cont_list_img">
+          <image src="../static/image/liansia.png" class="cont_list_img_r"></image>
+          <text>联赛战绩</text>
       </view>
       <image src="../static/image/leif.png"></image>
     </view>
@@ -99,5 +119,6 @@
       </view>
       <image src="../static/image/leif.png"></image>
     </view>
+
   </view>
 </view>
