@@ -75,6 +75,15 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  font-size: 34rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(153, 153, 153, 1);
+  position: relative;
+}
+
+.Control11{
+  color:rgba(51,51,51,1) !important;
 }
 
 .icon {
@@ -82,6 +91,9 @@
   height: 6rpx;
   background: rgba(254, 213, 23, 1);
   border-radius: 3px;
+  position: absolute;
+  bottom: 10rpx;
+  /* margin-top: 20rpx; */
 }
 
 .list {
@@ -100,12 +112,12 @@
   background-color: rgba(199, 219, 255, 0.5);
 }
 
-.list1_2{
-  background-color: #D8F1EA;
+.list1_2 {
+  background-color: #d8f1ea;
 }
 
-.list1_3{
-  background-color: #FFC18E;
+.list1_3 {
+  background-color: #ffc18e;
 }
 
 .list1_text {
@@ -133,4 +145,11 @@
   font-family: PingFang SC;
   font-weight: 500;
   color: rgba(138, 65, 0, 1);
+}
+
+.Control1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }

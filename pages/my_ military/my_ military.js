@@ -1,13 +1,24 @@
 // pages/my_ military/my_ military.js
+var that
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    cruu:0
   },
 
+  /**
+   * 点击切换卡
+   */
+  jumpclick(e){
+    that = this
+    that.setData({
+      cruu: e.currentTarget.dataset.cruu
+    })
+
+  },
   /**
    * 生命周期函数--监听页面加载
    */
