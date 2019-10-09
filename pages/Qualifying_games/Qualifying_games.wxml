@@ -1,0 +1,86 @@
+<view class="Winningdetails">
+    <view class="Recorddetails">
+      <view class="circle circle1">
+        <text>狼人</text>
+        <text>战绩</text>
+      </view>
+      <view class="score score1">
+        <view class="score_text">
+          <view class="shenglv">
+            <text>52%胜率</text>
+            <text>70分</text>
+          </view>
+
+          <view class="jusheng">
+            <text>52局</text>
+            <text>30胜</text>
+          </view>
+
+          <view class="dianshu">点4神次数：8</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="Recorddetails">
+      <view class="circle circle2">
+        <text>神职</text>
+        <text>战绩</text>
+      </view>
+      <view class="score score2">
+        <view class="score_text">
+          <view class="shenglv">
+            <text>52%胜率</text>
+            <text>70分</text>
+          </view>
+
+          <view class="jusheng">
+            <text>52局</text>
+            <text>30胜</text>
+          </view>
+
+          <view class="dianshu">点4神次数：8</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="Recorddetails">
+      <view class="circle circle3">
+        <text>平民</text>
+        <text>战绩</text>
+      </view>
+      <view class="score">
+        <view class="score_text">
+          <view class="shenglv">
+            <text>52%胜率</text>
+            <text>70分</text>
+          </view>
+
+          <view class="jusheng">
+            <text>52局</text>
+            <text>30胜</text>
+          </view>
+
+          <view class="dianshu">点4神次数：8</view>
+        </view>
+      </view>
+    </view>
+
+    
+</view>
+
+<view class="image_list">
+  <view wx:for="{{4}}" class="image_list1">
+    <view class="list_data">
+        <image src="../static/image/touxian.jpg"></image>
+        <view class="mvp">MVP 5</view>
+        <view class="cs">
+            <text>获胜26</text>
+            <text>场数26</text>
+        </view>
+    </view>
+    <view class="text">
+      <text>狼王</text>
+      <text>得分：70</text>
+    </view>
+  </view>
+</view>
