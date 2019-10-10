@@ -1,14 +1,16 @@
 {
   "pages": [
-    "pages/register/register",
+    "pages/withdraw/withdraw",
     "pages/edit/edit",
+    "pages/register/register",
+   
     
     "pages/forget-password/forget-password",
     "pages/login/login",
     "pages/room/room",
     "pages/index/index",
     "pages/square/square",
-    "pages/withdraw/withdraw",
+    
     "pages/integral/integral",
     "pages/Create-Room/Create-Room",
     "pages/scenario-referral/scenario-referral",
