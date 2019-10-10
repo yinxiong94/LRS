@@ -20,7 +20,7 @@ page {
   margin-left: 20rpx;
 }
 
-.cont_top image {
+.cont_top_img>image {
   width: 130rpx;
   height: 130rpx;
   border-radius: 50%;
@@ -145,18 +145,18 @@ page {
   border-radius: 2rpx;
 }
 
-.cont_top1_list text:nth-child(1){
-    font-size:32rpx;
-font-family:PingFang SC;
-font-weight:bold;
-color:rgba(51,51,51,1);
+.cont_top1_list text:nth-child(1) {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
 }
 
-.cont_top1_list text:nth-child(2){
-  font-size:26rpx;
-font-family:PingFang SC;
-font-weight:400;
-color:rgba(51,51,51,1);
+.cont_top1_list text:nth-child(2) {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
 }
 
 .cont_list {
@@ -182,53 +182,73 @@ color:rgba(51,51,51,1);
   height: 39rpx;
 }
 
-.voice{
+.voice {
   margin-top: 20rpx;
 }
 
-.list{
+.list {
   margin-top: 20rpx;
 }
 
-.cont_list_img{
+.cont_list_img {
   display: flex;
   align-items: center;
   /* width: 210rpx;
   justify-content: space-between; */
 }
 
-.cont_list_img image{
-  width: 40rpx;
-  height: 41rpx;
+.cont_list_img image {
+  width: 46rpx;
+  height: 46rpx;
 }
 
-.cont_list_img_r{
+.cont_list_img_r {
   margin-right: 30rpx;
 }
 
-.cont_list_img1 image{
-  width: 40rpx;
-  height: 38rpx;
+.cont_list_img1 image,.cont_list_img2 image,.cont_list_img3 image,.cont_list_img4 image {
+  width: 46rpx;
+  height: 46rpx;
 }
 
-
-
-
-.cont_list_img2 image{
+/* .cont_list_img2 image {
   width: 38rpx;
   height: 38rpx;
 }
 
-.cont_list_img3 image{
+.cont_list_img3 image {
   width: 43rpx;
   height: 32rpx;
 }
 
-.cont_list_img4 image{
+.cont_list_img4 image {
   width: 39rpx;
   height: 37rpx;
+} */
+
+.top {
+  margin-top: 20rpx;
 }
 
-.top{
-  margin-top: 20rpx;
+.gongsi{
+  display: flex;
+  text-align: center;
+}
+
+.compile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(96, 177, 255, 1);
+  font-size: 22rpx;
+  width: 100rpx;
+  height: 40rpx;
+  background: rgba(103, 182, 255, 0.3);
+  border-radius: 20rpx;
+  margin-left: 20rpx;
+}
+
+.compile>image {
+  width: 20rpx;
+  height: 24rpx;
 }
