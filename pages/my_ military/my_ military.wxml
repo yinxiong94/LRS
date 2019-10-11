@@ -1,121 +1,139 @@
 <view class="container">
-    <view class="cont_top">
-        <view class="cont_top_title">
-            <image src="../static/image/touxian.jpg"></image>
+  <view class="cont_top">
+    <view class="cont_top_title">
+      <image src="../static/image/touxian.jpg"></image>
 
-            <view class="cont_top_name">
-                <view class="cont_top_name1">麦兜啊</view>
-                <view class="cont_top_name2">
-                    <text>获胜点数88</text>
-                    <text>点赞数46</text>
-                    <text>MVP数40</text>
-                </view>
-            </view>
-
-            <view class="cont_top_sum">
-                <text>168</text>
-                <text>游戏总局数</text>
-            </view>
+      <view class="cont_top_name">
+        <view class="cont_top_name1">麦兜啊</view>
+        <view class="cont_top_name2">
+          <text>获胜点数88</text>
+          <text>点赞数46</text>
+          <text>MVP数40</text>
         </view>
+      </view>
 
-        <view class="cont_top_radar">
-        
-        <ec-canvas id="mychart-dom-graph" canvas-id="mychart-graph" ec="{{ ec }}"></ec-canvas>
-        </view>
-
+      <view class="cont_top_sum">
+        <text>168</text>
+        <text>游戏总局数</text>
+      </view>
     </view>
 
-    <view class="Control">
-        <view class="Control1 {{cruu == 0?'Control11':''}}" data-cruu="0" bindtap="jumpclick">
-            <text>战绩</text>
-            <view class="icon" wx:if="{{cruu == 0}}"></view>
-        </view>
+    <view class="cont_top_radar">
 
-        <view class="Control1 {{cruu == 1?'Control11':''}}" data-cruu="1" bindtap="jumpclick">
-            <text>历史对战</text>
-            <view class="icon" wx:if="{{cruu == 1}}"></view>
-        </view>
-
-        <view class="Control1 {{cruu == 2?'Control11':''}}" data-cruu="2" bindtap="jumpclick">
-            <text>完成荣誉</text>
-            <view class="icon" wx:if="{{cruu == 2}}"></view>
-        </view>
-
-        <view class="Control1 {{cruu == 3?'Control11':''}}" data-cruu="3" bindtap="jumpclick">
-            <text>好友评价</text>
-            <view class="icon" wx:if="{{cruu == 3}}"></view>
-        </view>
+      <ec-canvas id="mychart-dom-graph" canvas-id="mychart-graph" ec="{{ ec }}"></ec-canvas>
     </view>
 
-    <view class="list">
-        <view class="list1 list1_1">
-            <view class="list1_text">练习场</view>
-            <view class="list_data">
-                <view class="list_data1">
-                  <text>186</text>
-                  <text>总场</text>
-                </view>
+  </view>
 
-                <view class="list_data1">
-                  <text>186</text>
-                  <text>胜场</text>
-                </view>
-
-                <view class="list_data1">
-                  <text>186</text>
-                  <text>狼人胜场</text>
-                </view>
-
-                <view class="list_data1">
-                  <text>186</text>
-                  <text>神民胜场</text>
-                </view>
-
-                <view class="list_data1">
-                  <text>80%</text>
-                  <text>胜率</text>
-                </view>
-            </view>
-        </view>
-
-        <view class="list1 list1_2">
-            <view class="list1_text">积分场</view>
-            <view class="list_data">
-                <view class="list_data1">
-                  <text>186</text>
-                  <text>总场</text>
-                </view>
-
-                <view class="list_data1">
-                  <text>186</text>
-                  <text>胜场</text>
-                </view>
-
-                <view class="list_data1">
-                  <text>80%</text>
-                  <text>胜率</text>
-                </view>
-            </view>
-        </view>
-
-        <view class="list1 list1_3">
-            <view class="list1_text">排位场</view>
-            <view class="list_data">
-                <view class="list_data1">
-                  <text>186</text>
-                  <text>总场</text>
-                </view>
-
-                <view class="list_data1">
-                  <text>186</text>
-                  <text>胜场</text>
-                </view>
-
-                <view class="list_data1">
-                  <text>80%</text>
-                  <text>胜率</text>
-                </view>
-            </view>
-        </view>
+  <view class="Control">
+    <view class="Control1 {{cruu == 0?'Control11':''}}" data-cruu="0" bindtap="jumpclick">
+      <text>战绩</text>
+      <view class="icon" wx:if="{{cruu == 0}}"></view>
     </view>
+
+    <view class="Control1 {{cruu == 1?'Control11':''}}" data-cruu="1" bindtap="jumpclick">
+      <text>历史对战</text>
+      <view class="icon" wx:if="{{cruu == 1}}"></view>
+    </view>
+
+    <view class="Control1 {{cruu == 2?'Control11':''}}" data-cruu="2" bindtap="jumpclick">
+      <text>完成荣誉</text>
+      <view class="icon" wx:if="{{cruu == 2}}"></view>
+    </view>
+
+    <view class="Control1 {{cruu == 3?'Control11':''}}" data-cruu="3" bindtap="jumpclick">
+      <text>好友评价</text>
+      <view class="icon" wx:if="{{cruu == 3}}"></view>
+    </view>
+  </view>
+
+  <view class="list" wx:if="{{cruu == 0}}">
+    <view class="list1 list1_1">
+      <view class="list1_text">练习场</view>
+      <view class="list_data">
+        <view class="list_data1">
+          <text>186</text>
+          <text>总场</text>
+        </view>
+
+        <view class="list_data1">
+          <text>186</text>
+          <text>胜场</text>
+        </view>
+
+        <view class="list_data1">
+          <text>186</text>
+          <text>狼人胜场</text>
+        </view>
+
+        <view class="list_data1">
+          <text>186</text>
+          <text>神民胜场</text>
+        </view>
+
+        <view class="list_data1">
+          <text>80%</text>
+          <text>胜率</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="list1 list1_2">
+      <view class="list1_text">积分场</view>
+      <view class="list_data">
+        <view class="list_data1">
+          <text>186</text>
+          <text>总场</text>
+        </view>
+
+        <view class="list_data1">
+          <text>186</text>
+          <text>胜场</text>
+        </view>
+
+        <view class="list_data1">
+          <text>80%</text>
+          <text>胜率</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="list1 list1_3">
+      <view class="list1_text">排位场</view>
+      <view class="list_data">
+        <view class="list_data1">
+          <text>186</text>
+          <text>总场</text>
+        </view>
+
+        <view class="list_data1">
+          <text>186</text>
+          <text>胜场</text>
+        </view>
+
+        <view class="list_data1">
+          <text>80%</text>
+          <text>胜率</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="image_list" wx:if="{{cruu == 1}}">
+    <view wx:for="{{4}}" class="image_list1">
+      <view class="list_data">
+        <image src="../static/image/touxian.jpg"></image>
+        <view class="mvp">MVP 5</view>
+        <view class="cs">
+          <text>获胜26</text>
+          <text>场数26</text>
+        </view>
+      </view>
+      <view class="text">
+        <text>狼王</text>
+        <text>得分：70</text>
+      </view>
+    </view>
+  </view>
 </view>

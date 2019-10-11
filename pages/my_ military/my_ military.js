@@ -1,6 +1,7 @@
 // pages/my_ military/my_ military.js
 import * as echarts from '../../ec-canvas/echarts';
-
+var that
+var value = [];
 function initChart(canvas, width, height) {
   const chart = echarts.init(canvas, null, {
     width: width,
@@ -10,7 +11,7 @@ function initChart(canvas, width, height) {
 
   var option = {
     // backgroundColor: "#ffffff",
-    // color: ["#37A2DA", "#FF9F7F"],
+    color: ["#FFA50E"],
     tooltip: {},
     xAxis: {
       show: false
@@ -21,34 +22,34 @@ function initChart(canvas, width, height) {
     radar: [
       {
         indicator: [{
-            text: '外观',
+            text: '狼人',
             max: 100
           },
           {
-            text: '拍照',
+            text: '生存',
             max: 100
           },
           {
-            text: '系统',
+            text: '抿身份',
             max: 100
           },
           {
-            text: '性能',
+            text: '村民',
             max: 100
           },
           {
-            text: '屏幕',
+            text: '神职',
             max: 100
           }
         ],
         // radius: 40,
-        center: ['35%', '55%'],
+        // center: ['35%', '55%'],
         name: {
           // formatter: '【{value}】',
           // lineHeight:"5",
           fontSize: '15',
           textStyle: {
-            color: '#72ACD1',
+            color: '#8A4100',
            
           }
 
@@ -69,19 +70,28 @@ function initChart(canvas, width, height) {
     series: [{
       // name: '预算 vs 开销',
       type: 'radar',
-      data: [{
-          value: [50, 20, 10, 40, 40, 40],
+      data: [
+        {
+          value:value,
           // name: '预算'
+          symbolSize: 6,
+          areaStyle: {
+            normal: {
+              opacity: 0.4,
+              color: "#FED517",
+            }
+          }
         },
-
+  
       ]
+      
     }]
   };
 
   chart.setOption(option);
   return chart;
 }
-var that
+
 Page({
   onShareAppMessage: function(res) {
     return {
@@ -96,7 +106,7 @@ Page({
    */
   data: {
     cruu: 0,
-    leida: [100, 100, 100, 100, 100, 100],
+    leida: [80, 100, 65, 55, 40, 70],
     ec: {
       onInit: initChart
     }
@@ -117,6 +127,7 @@ Page({
    */
   onLoad: function(options) {
     that = this
+    value = that.data.leida
     // that.init_bar()
   },
 

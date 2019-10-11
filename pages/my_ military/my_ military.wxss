@@ -1,5 +1,5 @@
 .cont_top {
-  height: 423rpx;
+  height: 823rpx;
   background: linear-gradient(180deg, rgba(255, 209, 1, 1) 0%, rgba(255, 166, 22, 1) 100%);
 }
 
@@ -63,7 +63,7 @@
 
 .cont_top_radar {
   width: 690rpx;
-  height: 253rpx;
+  height: 607rpx;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 10rpx;
   margin-top: 50rpx;
@@ -130,7 +130,7 @@
 }
 
 .list_data {
-  height: 132rpx;
+  /* height: 132rpx; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -156,8 +156,87 @@
 
 ec-canvas {
   position: absolute;
-  top: 184rpx;
+  top: 230rpx;
   bottom: 0;
-  left: 13rpx;
+  left: 27rpx;
   right: 0;
+}
+
+
+.image_list {
+  margin-top: 30rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.list_data {
+  position: relative;
+}
+
+.list_data>image {
+  width: 220rpx;
+  height: 220rpx;
+  /* background:rgba(254,213,23,1); */
+  border-radius: 10rpx;
+  /* position: relative; */
+}
+
+.mvp {
+  width: 80rpx;
+  height: 40rpx;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10rpx 0px 20rpx 0px;
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 164, 46, 1);
+  line-height: 40rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.cs {
+  width: 220rpx;
+  height: 50rpx;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0px 0px 10rpx 10rpx;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cs text {
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+.text text:nth-child(1) {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+  margin-right: 20rpx;
+}
+
+.text text:nth-child(2) {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 164, 46, 1);
+}
+
+.image_list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.image_list1{
+  margin-bottom: 25rpx;
 }
