@@ -18,7 +18,10 @@
             </view>
         </view>
 
-        <view class="cont_top_radar"></view>
+        <view class="cont_top_radar">
+        
+        <ec-canvas id="mychart-dom-graph" canvas-id="mychart-graph" ec="{{ ec }}"></ec-canvas>
+        </view>
 
     </view>
 
