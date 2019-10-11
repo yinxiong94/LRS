@@ -1,0 +1,35 @@
+<view class="shadow"></view>
+
+<!-- 我的地址 -->
+<view class="db" wx:if="{{num==0}}">
+  <image src='../static/image/address.png' lazy-load='true'></image>
+  <view class="qin">亲，你还没有添加地址哦~</view>
+  <view class="btn" bindtap='handAdd'>添加地址</view>
+</view>
+<radio-group>
+  <view class="mian" wx:if="{{num>0}}">
+
+    <view class="from" wx:for="{{list}}" wx:key="{{index}}">
+      <view bindtap='superior' data-addressid='{{item.addressid}}'>
+        <view class="tel">
+          <text class="name">{{item.username}}</text>
+          <text class="tel_1">{{item.usertel}}</text>
+        </view>
+        <view class="dizhi">{{item.province}}{{item.city}}{{item.region}}</view>
+        <view class="dizhi_1">{{item.useraddress}}</view>
+      </view>
+
+      <view class="footer">
+        <view class="coco">
+          <radio bindtap='all' checked="{{item.isdefault}}" bindtap='handDefault' data-index="{{index}}"></radio>
+        </view>
+        <view class="left">设为默认地址</view>
+        <view class="right">
+          <image class="bianji" src='/pages/img/bianji.png' lazy-load='true' bindtap='edit' data-edit="{{index}}"></image>
+          <image class="shan" src='/pages/img/shan.png' lazy-load='true' bindtap='del' data-del="{{index}}"></image>
+        </view>
+      </view>
+    </view>
+    <view class="footer_btn" bindtap='handResult'>新增收货地址</view>
+  </view>
+</radio-group>

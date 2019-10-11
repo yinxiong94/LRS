@@ -1,11 +1,16 @@
 {
   "pages": [
-    "pages/my_ military/my_ military",
-    "pages/Qualifying_games/Qualifying_games",
-    "pages/field_integral/field_integral",
-    "pages/integral/integral",
-    "pages/he_ homepage/he_ homepage",
+    "pages/my-address/my-address",
+    "pages/address/address",
+    
+    "pages/change-password/change-password",
+    "pages/change/change",
     "pages/personal-quality/personal-quality",
+    "pages/he_ homepage/he_ homepage",
+    "pages/integral/integral",
+    "pages/field_integral/field_integral",
+    "pages/Qualifying_games/Qualifying_games",
+    "pages/my_ military/my_ military",
     "pages/login/login",
     "pages/room/room",
     "pages/index/index",

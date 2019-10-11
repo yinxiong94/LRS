@@ -1,0 +1,11 @@
+<view class="shadow"></view>
+
+<view class="box">
+  <view class="t1">新手机号码：</view>
+  <input placeholder="请输入新的手机号码" class="in1" type="number"></input>
+  <view class="box1">
+    <input placeholder="请输入验证码" class="in2" type="number"></input>
+    <button class="btn1">发送验证码</button>
+  </view>
+  <button class="btn2">保存</button>
+</view>
