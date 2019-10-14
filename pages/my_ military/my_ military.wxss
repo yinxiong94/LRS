@@ -1,5 +1,5 @@
 .cont_top {
-  height: 823rpx;
+  height: 600rpx;
   background: linear-gradient(180deg, rgba(255, 209, 1, 1) 0%, rgba(255, 166, 22, 1) 100%);
 }
 
@@ -63,10 +63,11 @@
 
 .cont_top_radar {
   width: 690rpx;
-  height: 607rpx;
+  height: 400rpx;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 10rpx;
   margin-top: 50rpx;
+  /* position: relative; */
 }
 
 .Control {
@@ -82,8 +83,8 @@
   position: relative;
 }
 
-.Control11{
-  color:rgba(51,51,51,1) !important;
+.Control11 {
+  color: rgba(51, 51, 51, 1) !important;
 }
 
 .icon {
@@ -156,12 +157,11 @@
 
 ec-canvas {
   position: absolute;
-  top: 230rpx;
+  top: 108rpx;
   bottom: 0;
-  left: 27rpx;
+  left: 20rpx;
   right: 0;
 }
-
 
 .image_list {
   margin-top: 30rpx;
@@ -230,13 +230,87 @@ ec-canvas {
   color: rgba(255, 164, 46, 1);
 }
 
-.image_list{
+.image_list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   text-align: center;
 }
 
-.image_list1{
+.image_list1 {
   margin-bottom: 25rpx;
+}
+
+.glory {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.glory_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300rpx;
+  width: 33.3333%;
+  /* border: 1px solid red; */
+}
+
+.glory_img>image {
+  width: 157rpx;
+  height: 142rpx;
+}
+
+.deity {
+  padding: 30rpx 0 30rpx 0;
+}
+
+.deity_text {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+  margin-left: 20rpx;
+}
+
+.analyze {
+  padding: 0 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80rpx;
+}
+
+.analyze image {
+  width: 307rpx;
+  height: 37rpx;
+}
+
+.huise {
+  position: relative;
+  /* width: 307rpx;
+  height: 37rpx; */
+}
+
+.liang {
+  position: absolute;
+  left: 0rpx;
+  top: 0rpx;
+  /* width: 307rpx;
+  height: 37rpx; */
+  max-width: 307px;
+  width: 307px;
+  overflow: hidden;
+}
+
+.analyze text {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+}
+
+.iocn {
+  height: 20rpx;
+  background: rgba(245, 245, 245, 1);
 }

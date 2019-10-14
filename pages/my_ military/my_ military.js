@@ -8,7 +8,6 @@ function initChart(canvas, width, height) {
     height: height
   });
   canvas.setChart(chart);
-
   var option = {
     // backgroundColor: "#ffffff",
     color: ["#FFA50E"],
@@ -42,12 +41,12 @@ function initChart(canvas, width, height) {
             max: 100
           }
         ],
-        // radius: 40,
+        radius: 70,
         // center: ['35%', '55%'],
         name: {
           // formatter: '【{value}】',
           // lineHeight:"5",
-          fontSize: '15',
+          fontSize: '13',
           textStyle: {
             color: '#8A4100',
            
