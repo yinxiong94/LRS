@@ -48,7 +48,7 @@
   </view>
 
   <view class="list">
-    <view class="cont_list">
+    <view class="cont_list" bindtap="club">
       <view class="cont_list_img">
           <image src="../static/image/juleib.png" class="cont_list_img_r"></image>
           <text>我的俱乐部</text>
@@ -80,7 +80,7 @@
       <image src="../static/image/leif.png"></image>
     </view> -->
 
-    <view class="cont_list top" >
+    <view class="cont_list top" bindtap="zhangji">
       <view class="cont_list_img2 cont_list_img_r cont_list_img">
           <image src="../static/image/zhangji.png" class="cont_list_img_r"></image>
           <text>我的战绩</text>
@@ -104,7 +104,7 @@
       <image src="../static/image/leif.png"></image>
     </view>
 
-     <view class="cont_list" >
+     <view class="cont_list" bindtap="kefu">
       <view class="cont_list_img3 cont_list_img_r cont_list_img">
           <image src="../static/image/kefu.png" class="cont_list_img_r"></image>
           <text>客服</text>

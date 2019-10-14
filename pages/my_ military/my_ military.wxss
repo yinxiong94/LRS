@@ -67,7 +67,7 @@
   background: rgba(255, 255, 255, 0.3);
   border-radius: 10rpx;
   margin-top: 50rpx;
-  /* position: relative; */
+  position: relative;
 }
 
 .Control {
@@ -157,9 +157,9 @@
 
 ec-canvas {
   position: absolute;
-  top: 108rpx;
+  top: -84rpx;
   bottom: 0;
-  left: 20rpx;
+  left: -27rpx;
   right: 0;
 }
 
@@ -313,4 +313,38 @@ ec-canvas {
 .iocn {
   height: 20rpx;
   background: rgba(245, 245, 245, 1);
+}
+
+.capacity_text text:nth-child(1) {
+  font-size: 50rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(138, 65, 0, 1);
+  position: relative;
+  /* margin-top: 50rpx;
+  display: inline-block; */
+}
+
+.capacity_text text:nth-child(2) {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(138, 65, 0, 1);
+  position: absolute;
+}
+
+.capacity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+}
+
+.ability {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(138, 65, 0, 1);
 }

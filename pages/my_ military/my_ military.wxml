@@ -20,10 +20,17 @@
 
     <view class="cont_top_radar">
       <ec-canvas id="mychart-dom-graph" canvas-id="mychart-graph" ec="{{ ec }}"></ec-canvas>
+
+      <view class="capacity">
+        <view class="capacity_text">
+          <text>S</text>
+          <text>+</text>
+        </view>
+        <view class="ability">能力值</view>
+      </view>
     </view>
-    
   </view>
-  
+
   <view class="Control">
     <view class="Control1 {{cruu == 0?'Control11':''}}" data-cruu="0" bindtap="jumpclick">
       <text>战绩</text>
@@ -136,104 +143,108 @@
   </view>
 
   <view class="glory" wx:if="{{cruu == 2}}">
-      <view class="glory_img" wx:for="{{3}}">
-          <image src="../static/image/daodao.png"></image>
-          <text>刀刀中神</text>
-      </view>
+    <view class="glory_img" wx:for="{{3}}">
+      <image src="../static/image/daodao.png"></image>
+      <text>刀刀中神</text>
+    </view>
 
-       <view class="glory_img" wx:for="{{3}}">
-          <image src="../static/image/daodao1.png"></image>
-          <text>刀刀中神</text>
-      </view>
+    <view class="glory_img" wx:for="{{3}}">
+      <image src="../static/image/daodao1.png"></image>
+      <text>刀刀中神</text>
+    </view>
   </view>
 
   <view class="evaluate" wx:if="{{cruu == 3}}">
-      <view class="deity">
-          <view class="deity_text">神民阵营</view>
-          <view class="analyze">
-              <text>逻辑分析力</text>
-              <view class="huise">
-                <image  src="../static/image/XING2.png"></image>
-                <view class="liang" style="width:50%;">
-                  <image  src="../static/image/liang.png"></image>
-                </view>
-              </view>
+    <view class="deity">
+      <view class="deity_text">神民阵营</view>
+      <view class="analyze">
+        <text>逻辑分析力</text>
+        <view class="huise">
+          <image src="../static/image/XING2.png"></image>
+          <view class="liang" style="width:50%;">
+            <image src="../static/image/liang.png"></image>
           </view>
-
-           <view class="analyze">
-              <text>语言表达力</text>
-              <view class="huise">
-                <image  src="../static/image/XING2.png"></image>
-                <view class="liang" style="width:50%;">
-                  <image  src="../static/image/liang.png"></image>
-                </view>
-              </view>
-          </view>
-
-           <view class="analyze">
-              <text>状态表现力</text>
-              <view class="huise">
-                <image  src="../static/image/XING2.png"></image>
-                <view class="liang" style="width:50%;">
-                  <image  src="../static/image/liang.png"></image>
-                </view>
-              </view>
-          </view>
-
-           <view class="analyze">
-              <text>带队号票力</text>
-              <view class="huise">
-                <image  src="../static/image/XING2.png"></image>
-                <view class="liang" style="width:50%;">
-                  <image  src="../static/image/liang.png"></image>
-                </view>
-              </view>
-          </view>
+        </view>
       </view>
-      
-      <view class="iocn"></view>
 
-      <view class="deity">
-          <view class="deity_text">狼人阵营</view>
-          <view class="analyze">
-              <text>逻辑分析力</text>
-              <view class="huise">
-                <image  src="../static/image/XING2.png"></image>
-                 <view class="liang" style="width:50%;">
-                  <image  src="../static/image/liang.png"></image>
-                </view>
-              </view>
+      <view class="analyze">
+        <text>语言表达力</text>
+        <view class="huise">
+          <image src="../static/image/XING2.png"></image>
+          <view class="liang" style="width:50%;">
+            <image src="../static/image/liang.png"></image>
           </view>
-
-           <view class="analyze">
-              <text>心理抗压力</text>
-              <view class="huise">
-                <image  src="../static/image/XING2.png"></image>
-                 <view class="liang" style="width:75%;">
-                  <image  src="../static/image/liang.png"></image>
-                </view>
-              </view>
-          </view>
-
-           <view class="analyze">
-              <text>情绪掌控力</text>
-              <view class="huise">
-                <image  src="../static/image/XING2.png"></image>
-                <view class="liang" style="width:62%;">
-                  <image  src="../static/image/liang.png"></image>
-                </view>
-              </view>
-          </view>
-
-           <view class="analyze">
-              <text>带队号票力</text>
-              <view class="huise">
-                <image  src="../static/image/XING2.png"></image>
-                 <view class="liang" style="width:78%;">
-                  <image  src="../static/image/liang.png"></image>
-                </view>
-              </view>
-          </view>
+        </view>
       </view>
+
+      <view class="analyze">
+        <text>状态表现力</text>
+        <view class="huise">
+          <image src="../static/image/XING2.png"></image>
+          <view class="liang" style="width:50%;">
+            <image src="../static/image/liang.png"></image>
+          </view>
+        </view>
+      </view>
+
+      <view class="analyze">
+        <text>带队号票力</text>
+        <view class="huise">
+          <image src="../static/image/XING2.png"></image>
+          <view class="liang" style="width:50%;">
+            <image src="../static/image/liang.png"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="iocn"></view>
+
+    <view class="deity">
+      <view class="deity_text">狼人阵营</view>
+      <view class="analyze">
+        <text>逻辑分析力</text>
+        <view class="huise">
+          <image src="../static/image/XING2.png"></image>
+          <view class="liang" style="width:50%;">
+            <image src="../static/image/liang.png"></image>
+          </view>
+        </view>
+      </view>
+
+      <view class="analyze">
+        <text>心理抗压力</text>
+        <view class="huise">
+          <image src="../static/image/XING2.png"></image>
+          <view class="liang" style="width:75%;">
+            <image src="../static/image/liang.png"></image>
+          </view>
+        </view>
+      </view>
+
+      <view class="analyze">
+        <text>情绪掌控力</text>
+        <view class="huise">
+          <image src="../static/image/XING2.png"></image>
+          <view class="liang" style="width:62%;">
+            <image src="../static/image/liang.png"></image>
+          </view>
+        </view>
+      </view>
+
+      <view class="analyze">
+        <text>带队号票力</text>
+        <view class="huise">
+          <image src="../static/image/XING2.png"></image>
+          <view class="liang" style="width:78%;">
+            <image src="../static/image/liang.png"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="iocn"></view>
+
   </view>
-</view> 
+  
+</view>

@@ -16,6 +16,32 @@ Page({
   },
 
   /**
+   *跳转到我得俱乐部
+   */
+  club(){
+    wx.navigateTo({
+      url: '/pages/my_club/my_club',
+    })
+  },
+
+  /**
+   * 拨打电话
+   */
+  kefu(){
+    wx.makePhoneCall({
+      phoneNumber: '13375410240',
+    })
+  },
+
+  /**
+   * 跳转到我得战绩
+   */
+  zhangji(){
+    wx.navigateTo({
+      url: '/pages/my_ military/my_ military',
+    })
+  },
+  /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
