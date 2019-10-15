@@ -1,5 +1,5 @@
 <view class="container">
-    <view class="fabu">
+    <view class="fabu" bindtap="issue">
         <image src="../static/image/fabu.png"></image>
     </view> 
     <!-- select_title  -->
@@ -74,7 +74,7 @@
                 <text>虎牙：</text>
                 <text>在哪儿我们去约</text>
             </view>
-            <view class="comment_content_list1">
+            <view class="comment_content_list1" catchtap="details">
                 查看全部评论 >
             </view>
         </view>
@@ -134,7 +134,7 @@
                <text>98</text>
            </view>
         </view>
-        <view class="comment_content">
+        <view class="comment_content" >
             <view class="comment_content_list">
                 <text>大黑：</text>
                 <text>在哪儿我们去约</text>
@@ -149,7 +149,7 @@
                 <text>虎牙：</text>
                 <text>在哪儿我们去约</text>
             </view>
-            <view class="comment_content_list1">
+            <view class="comment_content_list1" catchtap="details">
                 查看全部评论 >
             </view>
         </view>

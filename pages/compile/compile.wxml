@@ -1,0 +1,71 @@
+<view class="container">
+  <view class="compile">
+    编辑资料
+  </view>
+
+  <view class="compile_list">
+    <view class="portrait portrait_height">
+      <view class="portrait_image">
+        <image src="../static/image/touxian.jpg"></image>
+        <text>修改头像</text>
+      </view>
+      <view class="bracket">></view>
+    </view>
+
+    <view class="portrait portrait_height1">
+      <text>昵称</text>
+      <view class="name">
+        <text>湖南浣熊</text>
+        <view class="bracket">></view>
+      </view>
+    </view>
+
+    
+
+     <view class="portrait portrait_height1">
+      <text>ID号</text>
+      <view class="name">
+        <text>131454</text>
+        <view class="bracket">></view>
+      </view>
+    </view>
+
+    <view class="portrait portrait_height1">
+      <text>学历</text>
+      <view class="name">
+        <text>本科</text>
+        <view class="bracket">></view>
+      </view>
+    
+    </view>
+
+    <view class="portrait portrait_height1">
+      <text>性别</text>
+      <view class="name">
+        <text>女</text>
+        <view class="bracket">></view>
+      </view>
+    </view>
+
+    <view class="portrait portrait_height1">
+      <text>生日</text>
+      <view class="name">
+        <text>1997-05-04</text>
+        <view class="bracket">></view>
+      </view>
+    </view>
+
+    <view class="portrait portrait_height1">
+      <text>地区</text>
+      <view class="name">
+        <text>长沙</text>
+        <view class="bracket">></view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="btn">
+    保存
+  </view>
+</view>

@@ -121,6 +121,25 @@ Page({
     })
 
   },
+
+  /**
+   * 积分场
+   */
+  integral() {
+    wx.navigateTo({
+      url: '/pages/field_integral/field_integral',
+    })
+  },
+
+  /**
+   * 排位场
+   */
+  Qualifying() {
+    wx.navigateTo({
+      url: '/pages/Qualifying_games/Qualifying_games',
+    })
+  },
+  
   /**
    * 生命周期函数--监听页面加载
    */

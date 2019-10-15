@@ -24,6 +24,24 @@ Page({
       select: e.currentTarget.dataset.select
     })
   },
+
+  /**
+   * 发布
+   */
+  issue(){
+    wx.navigateTo({
+      url: '/pages/issue/issue',
+    })
+  },
+
+  /**
+   * 详情
+   */
+  details() {
+    wx.navigateTo({
+      url: '/pages/details/details',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

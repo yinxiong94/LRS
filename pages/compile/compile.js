@@ -1,4 +1,4 @@
-// pages/integral/integral.js
+// pages/compile/compile.js
 Page({
 
   /**
@@ -7,14 +7,7 @@ Page({
   data: {
 
   },
-  /**
-   * 提现
-   */
-  deposit() {
-    wx.navigateTo({
-      url: '/pages/withdraw/withdraw',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

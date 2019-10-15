@@ -84,7 +84,7 @@
       </view>
     </view>
 
-    <view class="list1 list1_2">
+    <view class="list1 list1_2" bindtap="integral">
       <view class="list1_text">积分场</view>
       <view class="list_data">
         <view class="list_data1">
@@ -104,7 +104,7 @@
       </view>
     </view>
 
-    <view class="list1 list1_3">
+    <view class="list1 list1_3" bindtap="Qualifying">
       <view class="list1_text">排位场</view>
       <view class="list_data">
         <view class="list_data1">

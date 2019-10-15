@@ -6,7 +6,7 @@
         <view class="gongsi">
           <text class="name">湖南浣熊</text>
           <text class="name_grade">LV.3</text>
-          <view class="compile">
+          <view class="compile" bindtap="compile">
               <image src="../static/image/bianji.png"></image>
               <text>编辑</text>
           </view> 
@@ -22,26 +22,26 @@
         </view>
       </view>
     </view>
-    <view class="cont_top_integral">
-      <view class="integral">
+    <view class="cont_top_integral" bindtap="integral">
+      <view class="integral" >
         <image src="../static/image/jinbi.png"></image>
         <text>1299</text>
       </view>
       <view class="integral_text">信誉积分</view>
     </view>
   </view>
-  <view class="cont_top1">
-    <view class="cont_top1_list ">
+  <view class="cont_top1" >
+    <view class="cont_top1_list" bindtap="attention">
       <text>65</text>
       <text>关注</text>
     </view>
     <view class="right"></view>
-    <view class="cont_top1_list">
+    <view class="cont_top1_list" bindtap="fans">
       <text>65</text>
       <text>粉丝</text>
     </view>
     <view class="right"></view>
-    <view class="cont_top1_list">
+    <view class="cont_top1_list" bindtap="friend">
       <text>65</text>
       <text>好友</text>
     </view>
@@ -64,10 +64,10 @@
       <image src="../static/image/leif.png"></image>
     </view>
 
-     <view class="cont_list">
+     <view class="cont_list" bindtap="dianjuan">
       <view class="cont_list_img1 cont_list_img_r">
           <image src="../static/image/qianbao.png" class="cont_list_img_r"></image>
-          <text>我的资产</text>
+          <text>我的点卷</text>
       </view>
       <image src="../static/image/leif.png"></image>
     </view>
@@ -96,7 +96,7 @@
       <image src="../static/image/leif.png"></image>
     </view>
 
-     <view class="cont_list" >
+     <view class="cont_list" bindtap="About">
       <view class="cont_list_img2 cont_list_img_r cont_list_img">
           <image src="../static/image/yueju.png" class="cont_list_img_r"></image>
           <text>约局</text>
@@ -112,7 +112,7 @@
       <image src="../static/image/leif.png"></image>
     </view>
 
-     <view class="cont_list" >
+     <view class="cont_list" bindtap="setting">
       <view class="cont_list_img4 cont_list_img_r cont_list_img">
           <image src="../static/image/shezhi .png" class="cont_list_img_r"></image>
           <text>设置</text>

@@ -6,7 +6,7 @@
       <view class="t1">我的积分</view>
       <view class="t2">1690</view>
     </view>
-    <view class="tx">提现</view>
+    <view class="tx" bindtap="deposit">提现</view>
   </view>
   <view class="t3">还差310积分升级提成增至10点</view>
   <view class="jc1"></view>

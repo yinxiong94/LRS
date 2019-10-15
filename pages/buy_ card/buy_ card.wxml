@@ -4,7 +4,7 @@
         <view class="title_text">我的房卡：5张</view>
         <view class="card">
           <view class="room_card {{crru==0?'room_card1':'room_card2'}}" data-crru="0" bindtap="jump">
-                <view class="room_card_text">一张房卡</view>
+                <view class="room_card_text">20点卷</view>
                 <image src="../static/image/zuoweika1.png"></image>
           </view>
 
