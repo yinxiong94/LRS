@@ -1,7 +1,12 @@
 {
   "pages": [
-    "pages/play/play",
+    "pages/kill/kill",
+    "pages/scenario/scenario",
+    
+    
+    "pages/scenario-referral/scenario-referral",
     "pages/homePage/homePage",
+    "pages/play/play",
     "pages/index/index",
     "pages/square/square",
     "pages/details/details",
@@ -23,8 +28,6 @@
     "pages/About_agency/About_agency",
     "pages/my_ About/my_ About",
     "pages/forget-password/forget-password",
-    "pages/scenario-referral/scenario-referral",
-    "pages/scenario/scenario",
     "pages/my-asset/my-asset",
     "pages/room/room",
     "pages/address/address",
