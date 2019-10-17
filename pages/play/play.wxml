@@ -1,0 +1,49 @@
+<view class="container">
+  <view class="cont_text">
+    <scroll-view scroll-x="true" class="roll_data" style="">
+      <!--  display: inline-block-->
+      <view class="text1" style="display: inline-block;">题材</view>
+      <view class="roll_list" style="display: inline-block;">古装</view>
+      <view class="roll_list" style="display: inline-block;">都市</view>
+      <view class="roll_list" style="display: inline-block;">校园</view>
+      <view class="roll_list" style="display: inline-block;">魔幻</view>
+      <view class="roll_list" style="display: inline-block;">科幻</view>
+      <!-- <view class="roll_list" style="display: inline-block;"></view>
+        <view class="roll_list" style="display: inline-block;"></view>
+        <view class="roll_list" style="display: inline-block;"></view>
+        <view class="roll_list" style="display: inline-block;"></view> -->
+    </scroll-view>
+
+
+  </view>
+
+  <view class="padding_item">
+    <scroll-view scroll-x="true" class="scrollstyle">
+      <!--  display: inline-block-->
+      <view style=" " class="scrollstyle_text">
+        <text>地区</text>
+        <image src="../static/image/fanghui.png"></image>
+      </view>
+      <view style=" " class="scrollstyle_text">
+        <text>开始时间</text>
+        <image src="../static/image/fanghui.png"></image>
+      </view>
+      <view style=" " class="scrollstyle_text">
+        <text>剧本类型</text>
+        <image src="../static/image/fanghui.png"></image>
+      </view>
+      <view style=" " class="scrollstyle_text">
+        <text>剧本难度</text>
+        <image src="../static/image/fanghui.png"></image>
+      </view>
+    </scroll-view>
+  </view>
+
+  <view class="Memento">
+    <view class="Memento_list" wx:for="{{9}}">
+      <image src="../static/image/touxian.jpg"></image>
+      <text class="fen">8.7分</text>
+      <view class="Memento_text">记忆碎片</view>
+    </view>
+  </view>
+</view>

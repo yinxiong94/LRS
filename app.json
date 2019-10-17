@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/play/play",
+    "pages/homePage/homePage",
+    "pages/index/index",
     "pages/square/square",
     "pages/details/details",
     "pages/mine/mine",
@@ -23,7 +26,6 @@
     "pages/scenario-referral/scenario-referral",
     "pages/scenario/scenario",
     "pages/my-asset/my-asset",
-    "pages/index/index",
     "pages/room/room",
     "pages/address/address",
     "pages/my_ military/my_ military",
@@ -39,7 +41,6 @@
     "pages/change-password/change-password",
     "pages/change/change",
     "pages/my-address/my-address",
-    "pages/homePage/homePage",
     "pages/game/game"
   ],
   "window": {

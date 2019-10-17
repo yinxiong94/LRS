@@ -1,0 +1,105 @@
+.cont_text {
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+}
+
+.text1 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  width: 120rpx;
+  height: 60rpx;
+  color: rgba(175, 179, 186, 1);
+  text-align: center;
+  line-height: 60rpx;
+}
+
+.roll_data {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+}
+
+.roll_list {
+  width: 120rpx;
+  height: 60rpx;
+  background: rgba(244, 198, 30, 0.25);
+  border-radius: 30rpx;
+  margin-right: 20rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+}
+
+.padding_item {
+  padding: 0 20rpx 0 20rpx;
+}
+
+.scrollstyle {
+  display: flex;
+  white-space: nowrap;
+}
+
+.scrollstyle_text {
+  width: 100px;
+  display: inline-block;
+}
+
+.scrollstyle_text text {
+  color: rgba(82, 82, 82, 1);
+}
+
+.scrollstyle_text image {
+  width: 17rpx;
+  height: 10rpx;
+  margin-bottom: 4rpx;
+  margin-left: 10rpx;
+}
+
+.Memento {
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Memento_list {
+  width: 210rpx;
+  height: 280rpx;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 3px 13px 0px rgba(101, 101, 101, 0.25);
+  border-radius: 10rpx;
+  position: relative;
+}
+
+.Memento_list>image {
+  width: 210rpx;
+  height: 210rpx;
+  border-radius: 10rpx 10rpx 0rpx 0rpx;
+}
+
+.fen {
+  position: absolute;
+  right: 0;
+  bottom: 80rpx;
+  font-size: 34rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+
+.Memento_text {
+  width: 100%;
+  height: 100%;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(82, 82, 82, 1);
+  text-align: center;
+  line-height: 50rpx;
+}
