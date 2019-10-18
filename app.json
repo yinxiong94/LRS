@@ -1,9 +1,14 @@
 {
   "pages": [
+    "pages/Memento_youxi/Memento_youxi",
+    "pages/my-address/my-address",
+    "pages/address/address",
+    "pages/game1/game",
+    "pages/Create-Room/Create-Room",
+    "pages/room_card/room_card",
+    "pages/room/room",
     "pages/kill/kill",
     "pages/scenario/scenario",
-    
-    
     "pages/scenario-referral/scenario-referral",
     "pages/homePage/homePage",
     "pages/play/play",
@@ -15,10 +20,8 @@
     "pages/field_integral/field_integral",
     "pages/integral/integral",
     "pages/withdraw/withdraw",
-    "pages/room_card/room_card",
     "pages/edit/edit",
     "pages/register/register",
-    "pages/game1/game",
     "pages/Topup_page/Topup_page",
     "pages/issue/issue",
     "pages/my_ fans/my_ fans",
@@ -29,8 +32,6 @@
     "pages/my_ About/my_ About",
     "pages/forget-password/forget-password",
     "pages/my-asset/my-asset",
-    "pages/room/room",
-    "pages/address/address",
     "pages/my_ military/my_ military",
     "pages/compile/compile",
     "pages/Club_evaluation/Club_evaluation",
@@ -43,7 +44,7 @@
     "pages/he_ homepage/he_ homepage",
     "pages/change-password/change-password",
     "pages/change/change",
-    "pages/my-address/my-address",
+    
     "pages/game/game"
   ],
   "window": {

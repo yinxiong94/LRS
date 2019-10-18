@@ -1,7 +1,7 @@
 <view class="shadow"></view>
 
 <view class="fj">房间</view>
-<view class="mbox-gr">
+<view class="mbox-gr" bindtap="establish">
   <image src="../static/image/77.png" class="img7"></image>
   <view>
     <view class="ks">创建房间</view>
@@ -11,7 +11,7 @@
 
 <view class="kong"></view>
 
-<view class="zzc"> 
+<view class="zzc" wx:if="{{isShow}}"> 
     <view class="bigbox">
         <view class="cjfj">创建房间</view>
         <view class="sbox">

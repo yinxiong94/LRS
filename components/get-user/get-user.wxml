@@ -9,5 +9,5 @@
       <view class='col border-r padding-tb' style='line-height: 36rpx;' hover-class='btn-active' bindtap='cancel'>拒绝</view>
       <button class='col padding-tb color' hover-class='btn-active' open-type="getUserInfo" bindgetuserinfo="_updateUserInfo">允许</button>
     </view>
-  </view>
+  </view>+
 </view>

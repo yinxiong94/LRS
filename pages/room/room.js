@@ -7,7 +7,8 @@ Page({
    */
   data: {
     cruu: 0,
-    select: 0
+    select: 0,
+    isShow:false
   },
   locationdj(e) {
     that = this
@@ -21,6 +22,16 @@ Page({
     that.setData({
       select: e.currentTarget.dataset.select
     })
+  },
+
+  /**
+   * 创建房间
+   */
+  establish() {
+      that = this
+      that.setData({
+        isShow:true
+      })
   },
   /**
    * 生命周期函数--监听页面加载
